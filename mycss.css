@@ -1,0 +1,388 @@
+body {
+    background-image: url(./space.jpg);
+}
+
+.clear {
+    clear: both;
+}
+
+.space {
+    height: 900px;
+
+    -webkit-transform: rotateX(75deg);
+    transform: rotateX(75deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.planet {
+    position: absolute;
+
+    -webkit-animation: planet 20s infinite linear;
+    animation: planet 20s infinite linear;
+
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+
+    -webkit-animation: shadow 20s infinite linear;
+    animation: shadow 20s infinite linear;
+
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.earth {
+    left: 50%;
+
+    width: 250px;
+    height: 250px;
+    margin-left: -125px;
+
+    -webkit-transform: rotateX(-75deg) rotateZ(10deg);
+    transform: rotateX(-75deg) rotateZ(10deg);
+    -webkit-animation: fon 5s infinite linear;
+    animation: fon 5s infinite linear;
+
+    background-image: url(./texture/earthmap1k.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.moon {
+    left: 50%;
+
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+
+    background-image: url(./texture/moon.jpg);
+}
+
+.mercury {
+    left: 50%;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+
+    background-image: url(./texture/mercury.jpg);
+}
+
+.neptune {
+    left: 50%;
+
+    width: 66px;
+    height: 66px;
+    margin-top: -33px;
+    margin-left: -33px;
+
+    background-image: url(./texture/neptune.jpg);
+}
+
+.pluto {
+    left: 50%;
+
+    width: 90px;
+    height: 90px;
+    margin-top: -45px;
+    margin-left: -45px;
+
+    background-image: url(./texture/pluto.jpg);
+}
+
+.orbit_moon {
+    position: absolute;
+
+    width: 100%;
+
+    -webkit-transform: rotateY(-10deg);
+    transform: rotateY(-10deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.orbit_mercury {
+    position: absolute;
+
+    width: 100%;
+
+    -webkit-transform: rotateY(-40deg);
+    transform: rotateY(-40deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.orbit_neptune {
+    position: absolute;
+
+    width: 100%;
+
+    -webkit-transform: rotateY(-140deg);
+    transform: rotateY(-140deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.orbit_pluto {
+    position: absolute;
+
+    width: 100%;
+
+    -webkit-transform: rotateY(-250deg);
+    transform: rotateY(-250deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+
+#orbit_sputnik {
+    position: absolute;
+    left: 50%;
+
+    margin-left: -250px;
+
+    -webkit-transform: rotateY(40deg);
+    transform: rotateY(40deg);
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.orbit {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+    -webkit-animation: orbit 20s infinite linear;
+    animation: orbit 20s infinite linear;
+
+    border: 2px solid rgba(255, 255, 255, .2);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+
+
+.sputnik {
+    width: 25px;
+    height: 25px;
+
+    -webkit-animation: sputnik 20s infinite linear;
+    animation: sputnik 20s infinite linear;
+
+    background-image: url(./sputnik.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+/* Animations */
+
+@-webkit-keyframes planet {
+    0% {
+        -webkit-transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg) scale(.7, .7);
+        transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg) scale(.7, .7);
+
+        background-position-x: 0;
+        ;
+    }
+    50% {
+        -webkit-transform: rotateX(-90deg) rotateY(180deg) rotateZ(0deg)scale(1.5, 1.5);
+        transform: rotateX(-90deg) rotateY(180deg) rotateZ(0deg)scale(1.5, 1.5);
+    }
+    100% {
+        -webkit-transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg) scale(.7, .7);
+        transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg) scale(.7, .7);
+
+        background-position-x: 200%;
+        ;
+    }
+}
+
+@keyframes planet {
+    0% {
+        -webkit-transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg) scale(.7, .7);
+        transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg) scale(.7, .7);
+
+        background-position-x: 0;
+        ;
+    }
+    50% {
+        -webkit-transform: rotateX(-90deg) rotateY(180deg) rotateZ(0deg)scale(1.5, 1.5);
+        transform: rotateX(-90deg) rotateY(180deg) rotateZ(0deg)scale(1.5, 1.5);
+    }
+    100% {
+        -webkit-transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg) scale(.7, .7);
+        transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg) scale(.7, .7);
+
+        background-position-x: 200%;
+        ;
+    }
+}
+
+@-webkit-keyframes sputnik {
+    0% {
+        -webkit-transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+        transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+    }
+
+
+    100% {
+        -webkit-transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+        transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+    }
+}
+
+@keyframes sputnik {
+    0% {
+        -webkit-transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+        transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+    }
+
+
+    100% {
+        -webkit-transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+        transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+    }
+}
+
+@-webkit-keyframes fon {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 200%;
+    }
+}
+
+@keyframes fon {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 200%;
+    }
+}
+
+@-webkit-keyframes orbit {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes orbit {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg);
+    }
+}
+
+@-webkit-keyframes shadow {
+    0% {
+        -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        /* TOP */
+    }
+
+    25% {
+        -webkit-box-shadow: inset 16px 0 8px rgba(0, 0, 0, .5);
+        box-shadow: inset 16px 0 8px rgba(0, 0, 0, .5);
+        /* LEFT */
+    }
+
+    50% {
+        -webkit-box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        /* BOTTOM */
+    }
+
+    50.01% {
+        -webkit-box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        /* BOTTOM */
+    }
+
+    75% {
+        -webkit-box-shadow: inset -16px 0 8px rgba(0, 0, 0, .5);
+        box-shadow: inset -16px 0 8px rgba(0, 0, 0, .5);
+        /* RIGHT */
+    }
+
+    100% {
+        -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        /* TOP */
+    }
+}
+
+@keyframes shadow {
+    0% {
+        -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        /* TOP */
+    }
+
+    25% {
+        -webkit-box-shadow: inset 16px 0 8px rgba(0, 0, 0, .5);
+        box-shadow: inset 16px 0 8px rgba(0, 0, 0, .5);
+        /* LEFT */
+    }
+
+    50% {
+        -webkit-box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        /* BOTTOM */
+    }
+
+    50.01% {
+        -webkit-box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        box-shadow: inset 50px 0 16px rgba(0, 0, 0, .5);
+        /* BOTTOM */
+    }
+
+    75% {
+        -webkit-box-shadow: inset -16px 0 8px rgba(0, 0, 0, .5);
+        box-shadow: inset -16px 0 8px rgba(0, 0, 0, .5);
+        /* RIGHT */
+    }
+
+    100% {
+        -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        box-shadow: inset 0 0 20px rgba(0, 0, 0, .5);
+        /* TOP */
+    }
+}
