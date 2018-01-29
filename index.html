@@ -1,48 +1,121 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="mycss.css">
-    <title>Планеты hgfhgfhfghf</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400&amp;subset=cyrillic" rel="stylesheet">
+  <title>Test Page</title>
 </head>
-
 <body>
-    <div class="clear"></div>
-    <div class="space">
-        <div class="planet earth">
-            <div class="shadow"></div>
-        </div>
-        <div class="orbit_moon">
-            <div class="orbit " style="animation-duration: 11s; width: 450px;  height: 450px;">
-                <div class="planet moon" style="animation-duration: 11s;">
-                    <div class="shadow"></div>
-                </div>
-            </div>
-        </div>
-        <div class="orbit_mercury">
-            <div class="orbit " style="animation-duration: 37s;width: 300px;  height: 300px;">
-                <div class="planet mercury" style="animation-duration: 37s; ">
-                    <div class="shadow"></div>
-                </div>
-            </div>
-        </div>
-        <div class="orbit_neptune">
-            <div class="orbit " style="animation-duration: 23s;width: 800px;  height: 800px;">
-                <div class="planet neptune" style="animation-duration: 23s; ">
-                    <div class="shadow"></div>
-                </div>
-            </div>
-        </div>
-        <div class="orbit_pluto">
-            <div class="orbit " style="animation-duration: 86s; width: 630px;  height: 630px;">
-                <div class="planet pluto" style="animation-duration: 86s;">
-                    <div class="shadow"></div>
-                </div>
-            </div>
-        </div>
+  <header class="page-header">
+    <div class="page-header__inner">
+      <div class="logo">
+        <a class="logo__link" href="index.html">
+          <img class="logo__image" src="img/logo.png" alt="Логотип TelCo-Media" width="89" height="37">
+        </a>
+        <p class="logo__description">
+          официальный дистрибьютор Fox International Channels в России
+        </p>
+      </div>
+      <nav class="main-nav  main-nav_close">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">
+            Открыть/закрыть меню
+          </span>
+        </button>
+        <a class="main-nav__link" href="#">Телеканалы</a>
+        <a class="main-nav__link" href="#">Маркетинг</a>
+        <a class="main-nav__link" href="#">Контакты</a>
+      </nav>
     </div>
-    <div class="clear"></div>
-</body>
+  </header>
+  <main>
+    <article class="gallery">
+      <section class="channel">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-geo.png" alt="National Geographic Channel" width="189" height="67">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
 
+      <section class="channel  channel_wild-hd">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-geo-wild-hd.png" alt="National Geo-Wild-HD Channel" width="207" height="62">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_wild">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-geo-wild.png" alt="National Geo-Wild Channel" width="202" height="61">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_geo-hd">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-geo-hd.png" alt="National Geographic-HD Channel" width="186" height="65">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_fox-hd">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-fox-hd.png" alt="Fox-HD Channel" width="180" height="53">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_fox-life">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-fox-life.png" alt="Fox-Life Channel" width="227" height="86">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_fox-life-hd">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-fox-life-hd.png" alt="Fox-Life-HD Channel" width="300" height="86">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_fox">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-fox.png" alt="Fox Channel" width="120" height="53">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="channel  channel_baby">
+        <a class="channel__preview" href="#">
+          <img class="channel__logo" src="img/logo-baby.png" alt="BabyTV Channel" width="151" height="110">
+        </a>
+        <div class="channel__inner">
+          <a class="channel__about" href="#">Подробнее</a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer></footer>
+<script src="js/nav.js"></script>
+</body>
 </html>
