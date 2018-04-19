@@ -11,12 +11,15 @@
 }
 
 
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
-*{
-outline:none;}
+
+* {
+  outline: none;
+}
 
 header {
   background: rgba(0, 0, 0, .9);
@@ -26,69 +29,77 @@ header {
 }
 
 
-h1,.h1{
+h1,
+.h1 {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
-h2,.h2{
+
+h2,
+.h2 {
   font-size: 24px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
-h3,.h3{
+
+h3,
+.h3 {
   font-size: 18px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
-h4,.h4{
+
+h4,
+.h4 {
   font-size: 16px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
-h5,.h5{
+
+h5,
+.h5 {
   font-size: 14px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
 
-h6,.h6{
+h6,
+.h6 {
   font-size: 13px;
   margin-bottom: 20px;
   line-height: normal;
   letter-spacing: .3px;
-
 }
-p{
-    font-size: 14px;
-    margin-bottom: 10px;
 
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
+
 a {
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
+  color: #000;
 }
 
 a:hover {
   text-decoration: none;
 }
-.content{
+
+.content {
   margin-top: 100px;
- padding: 50px 15px;
+  padding: 50px 15px;
 }
+
 .yellow {
   color: #f5b900;
 }
@@ -102,9 +113,11 @@ a:hover {
   display: -o-flex;
   display: flex;
 }
-.top-nav a{
+
+.top-nav a {
   color: #fff;
 }
+
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
@@ -171,14 +184,14 @@ a:hover {
 
 .phone {
 
-margin-bottom: 5px;
+  margin-bottom: 5px;
 
   line-height: 2;
   display: inline-block;
 }
 
 .work-time {
-margin-bottom: 5px;
+  margin-bottom: 5px;
   color: #fff;
   line-height: 1;
 
@@ -283,6 +296,10 @@ footer {
   background: #000;
 }
 
+footer a {
+  color: #fff;
+}
+
 .feedback {
   padding: 50px 0;
   background: #fff;
@@ -296,9 +313,8 @@ textarea {
   padding: 15px 0 10px 30px;
   font-size: 14px;
   background: none;
-  margin: 20px 0;
-  width: 49%;
-  min-width: 260px;
+
+width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -310,30 +326,27 @@ textarea::placeholder {
 textarea {
   padding: 0;
   width: 100%;
+  margin: 20px 0;
 }
-.phone_number{
+
+.phone_number,.vin_number  {
+  display: inline-block;
   position: relative;
-  height: 10px;
+  margin: 20px 0;
+  max-width: 49%;
+  width: 290px;
 }
-.phone_number:before{
-content: '';
+
+.phone_number:before,.vin_number:before  {
+  content: '';
+  display: inline-block;
   font-family: 'fontello';
-bottom: 0;
-position: absolute;
-height: 100%;
-width: 100%;
+  bottom: 10px;
+  position: absolute;
 }
-.vin_number{
-  position: relative;
-  height: 10px;
-}
-.vin_number:before{
+.vin_number:before {
   content: '';
-  font-family: 'fontello';
-bottom: 0;
-position: absolute;
-height: 100%;
-width: 100%;
+
 }
 
 .submit {
@@ -404,11 +417,11 @@ width: 100%;
 @media (max-width: 992px) {
   .advantages-img {
 
-  margin: 0 0 0 25%;
+    margin: 0 0 0 25%;
   }
 
 
-    .phone {
+  .phone {
 
     text-align: center;
     margin: 0;
