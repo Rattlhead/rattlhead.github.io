@@ -1,42 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&subset=cyrillic');
+@import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&subset=cyrillic";
 @font-face {
   font-family: 'fontello';
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
-  src: url('./font/fontello.eot');
-  src: url('./font/fontello.eot') format('embedded-opentype'),
-  url('./font/fontello.woff') format('woff'),
-  url('./font/fontello.ttf') format('truetype'),
-  url('./font/fontello.svg') format('svg');
+  src: url(./font/fontello.eot);
+  src: url(./font/fontello.eot) format("embedded-opentype"), url(./font/fontello.woff) format("woff"), url(./font/fontello.ttf) format("truetype"), url(./font/fontello.svg) format("svg")
 }
 
-
-
-
-
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-
 * {
-  outline: none;
+  outline: none
 }
 
 header {
   background: rgba(0, 0, 0, .9);
   z-index: 5;
-  /*position: fixed;*/
-  width: 100%;
+  width: 100%
 }
-
 
 h1,
 .h1 {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 h2,
@@ -44,7 +30,7 @@ h2,
   font-size: 24px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 h3,
@@ -52,7 +38,7 @@ h3,
   font-size: 18px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 h4,
@@ -60,7 +46,7 @@ h4,
   font-size: 16px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 h5,
@@ -68,7 +54,7 @@ h5,
   font-size: 14px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 h6,
@@ -76,244 +62,226 @@ h6,
   font-size: 13px;
   margin-bottom: 20px;
   line-height: normal;
-  letter-spacing: .3px;
+  letter-spacing: .3px
 }
 
 p {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 a {
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
-  color: #000;
+  -webkit-transition: color .3s linear;
+  -moz-transition: color .3s linear;
+  -ms-transition: color .3s linear;
+  -o-transition: color .3s linear;
+  transition: color .3s linear;
+  color: #000
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none
 }
 
 .content {
   margin-top: 100px;
-  padding: 50px 15px;
+  padding: 50px 15px
 }
 
 .yellow {
-  color: #f5b900;
+  color: #f5b900
 }
 
 .top-nav {
   line-height: 90px;
-
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
+  -webkit-transition: line-height .3s linear;
+  -moz-transition: line-height .3s linear;
+  -ms-transition: line-height .3s linear;
+  -o-transition: line-height .3s linear;
+  transition: line-height .3s linear
 }
 
 .min-top-nav {
   line-height: 60px;
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
+  -webkit-transition: line-height .3s linear;
+  -moz-transition: line-height .3s linear;
+  -ms-transition: line-height .3s linear;
+  -o-transition: line-height .3s linear;
+  transition: line-height .3s linear
 }
 
 .top-nav a {
-  color: #fff;
+  color: #fff
 }
 
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: 700;
-
   text-align: center;
-
-  flex-grow: 1;
+  flex-grow: 1
 }
 
 .top-nav__btn-menu {
   font-size: 30px;
-
   position: absolute;
   top: 0;
   right: 15px;
-
   cursor: pointer;
-
   color: #fff;
   border: 0;
-  background: transparent;
+  background: transparent
 }
 
 .top-nav__menu ul {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-
   display: flex;
-
   margin: 0;
   padding: 0;
-
   list-style: none;
   list-style-position: inside;
   list-style-type: square;
-
-  justify-content: flex-end;
+  justify-content: flex-end
 }
-
-
 
 .top-nav__menu li {
   display: inline;
   float: left;
-
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 
 .top-nav__menu li a {
   font-weight: 700;
-
   float: left;
-
   padding: 0 18px;
-
-  color: #fff;
+  color: #fff
 }
 
 .top-nav__menu li a:hover {
-  color: #f5b900;
+  color: #f5b900
 }
 
 .phone {
-
   margin-bottom: 5px;
-
   line-height: 2;
-  display: inline-block;
+  display: inline-block
 }
 
 .work-time {
   margin-bottom: 5px;
   color: #fff;
   line-height: 1;
-
-  display: inline-block;
+  display: inline-block
 }
 
 .banner {
-  padding: 200px 0 100px 0;
+  padding: 200px 0 100px;
   min-height: 600px;
-  background: url('assets/img/slider3.jpg');
-  background-size: cover;background-position: 50% 50%;
-  background-attachment: fixed;
+  background: url(assets/img/slider3.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed
 }
 
 .banner__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 700
 }
 
 .banner__sub-title {
   font-family: 'Open Sans', sans-serif;
-
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 400
 }
 
 .advantages {
   padding: 50px 0;
-  background: #f5b900;
+  background: #f5b900
 }
 
 .advantages-item {
   position: relative;
-  margin: 25px 0;
+  margin: 25px 0
 }
 
 .advantages-img {
   position: absolute;
-  opacity: 0.3;
-  margin: -20px 0 0 -20px;
+  opacity: .3;
+  margin: -20px 0 0 -20px
 }
 
 .advantages__content {
   z-index: 1;
   position: relative;
-  max-width: 90%;
+  max-width: 90%
 }
 
 .advantages__title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 20px
 }
 
 .advantages__description {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 14px
 }
 
 .availability {
-  background: #f2f2f2;
+  background: #f2f2f2
 }
 
 .availability__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 100px
 }
 
 .availability__description {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-bottom: 100px;
+  margin-bottom: 100px
 }
 
 .numbers {
-  padding: 50px 0;
+  padding: 50px 0
 }
 
 .numbers__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 50px
 }
 
 .numbers-item__number {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 30px
 }
 
 .numbers-item__title {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #999;
+  color: #999
 }
 
 .map {
-  min-height: 350px;
+  min-height: 350px
 }
 
 footer {
-  background: #000;
+  background: #000
 }
 
 footer a {
-  color: #fff;
+  color: #fff
 }
 
 .feedback {
   padding: 50px 0;
-  background: #fff;
+  background: #fff
 }
 
 .feedback input[type="text"],
@@ -324,20 +292,19 @@ textarea {
   padding: 15px 0 10px 30px;
   font-size: 14px;
   background: none;
-
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif
 }
 
 .feedback input::placeholder,
 textarea::placeholder {
-  color: #000;
+  color: #000
 }
 
 textarea {
   padding: 0;
   width: 100%;
-  margin: 20px 0;
+  margin: 20px 0
 }
 
 .phone_number,
@@ -346,7 +313,7 @@ textarea {
   position: relative;
   margin: 20px 0;
   max-width: 49%;
-  width: 290px;
+  width: 290px
 }
 
 .phone_number:before,
@@ -355,11 +322,11 @@ textarea {
   display: inline-block;
   font-family: 'fontello';
   bottom: 10px;
-  position: absolute;
+  position: absolute
 }
 
 .vin_number:before {
-  content: '';
+  content: ''
 }
 
 .submit {
@@ -368,39 +335,36 @@ textarea {
   border-radius: 0;
   background: #000;
   color: #fff;
-  font-weight: normal;
+  font-weight: 400;
   margin: 20px 0 0 20px;
-  padding: 16px 30px;
+  padding: 16px 30px
 }
 
 .submit:hover {
   background-color: #f5b900;
-  color: #000;
+  color: #000
 }
 
 .feedback__title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 30px
 }
-
-
 
 .feedback__description {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 14px
 }
-
 
 .feedback__subtitle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .requisites {
   padding: 10px 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #fff
 }
 
 .offer {
@@ -412,45 +376,41 @@ textarea {
 .social__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #fff
 }
 
 .social__item-icon {
   font-family: 'fontello';
   font-size: 30px;
   margin-right: 10px;
-  color: #fff;
+  color: #fff
 }
 
 .social__item-icon:hover {
   color: #f5b900;
-  transition: all .3s linear;
+  transition: all .3s linear
 }
 
 @media (max-width: 992px) {
   .advantages-img {
-    margin: 0 0 0 25%;
+    margin: 0 0 0 25%
   }
-
-.phone_number,
-.vin_number {
-  max-width: 100%;
-}
-
+  .phone_number,
+  .vin_number {
+    max-width: 100%
+  }
   .phone {
     text-align: center;
     margin: 0;
     line-height: 1.2;
-    margin-bottom: 5px;
+    margin-bottom: 5px
   }
-
   .top-nav {
-    line-height: 30px;
+    line-height: 30px
   }
-
   .top-nav__menu ul {
     background: #1f1f1f;
     flex-direction: column;
-    line-height: 40px;
+    line-height: 40px
   }
 }
