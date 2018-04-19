@@ -15,38 +15,65 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
+*{
+outline:none;}
 
 header {
   background: rgba(0, 0, 0, .9);
   z-index: 5;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 }
 
 
 h1,.h1{
   font-size: 30px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
 h2,.h2{
   font-size: 24px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
 h3,.h3{
   font-size: 18px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
 h4,.h4{
   font-size: 16px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
-p,h5,.h5{
+h5,.h5{
   font-size: 14px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
+
 h6,.h6{
   font-size: 13px;
+  margin-bottom: 20px;
+  line-height: normal;
+  letter-spacing: .3px;
+
 }
+p{
+    font-size: 14px;
+    margin-bottom: 10px;
 
-
-
-
-/* 30 24 18 16 14 13*/
+}
 a {
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
@@ -62,7 +89,10 @@ a:hover {
 
   color: #fff;
 }
-
+.content{
+  margin-top: 100px;
+ padding: 50px 0;
+}
 .yellow {
   color: #f5b900;
 }
