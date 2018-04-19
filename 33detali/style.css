@@ -12,6 +12,8 @@
 
 
 
+
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -114,6 +116,15 @@ a:hover {
   display: flex;
 }
 
+.min-top-nav {
+  line-height: 60px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
 .top-nav a {
   color: #fff;
 }
@@ -202,7 +213,7 @@ a:hover {
   padding: 200px 0 100px 0;
   min-height: 600px;
   background: url('assets/img/slider3.jpg');
-  background-size: cover;
+  background-size: cover;background-position: 50% 50%;
   background-attachment: fixed;
 }
 
@@ -314,7 +325,7 @@ textarea {
   font-size: 14px;
   background: none;
 
-width: 100%;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -329,7 +340,8 @@ textarea {
   margin: 20px 0;
 }
 
-.phone_number,.vin_number  {
+.phone_number,
+.vin_number {
   display: inline-block;
   position: relative;
   margin: 20px 0;
@@ -337,16 +349,17 @@ textarea {
   width: 290px;
 }
 
-.phone_number:before,.vin_number:before  {
+.phone_number:before,
+.vin_number:before {
   content: '';
   display: inline-block;
   font-family: 'fontello';
   bottom: 10px;
   position: absolute;
 }
+
 .vin_number:before {
   content: '';
-
 }
 
 .submit {
@@ -416,13 +429,15 @@ textarea {
 
 @media (max-width: 992px) {
   .advantages-img {
-
     margin: 0 0 0 25%;
   }
 
+.phone_number,
+.vin_number {
+  max-width: 100%;
+}
 
   .phone {
-
     text-align: center;
     margin: 0;
     line-height: 1.2;
@@ -430,7 +445,7 @@ textarea {
   }
 
   .top-nav {
-    line-height: 50px;
+    line-height: 30px;
   }
 
   .top-nav__menu ul {

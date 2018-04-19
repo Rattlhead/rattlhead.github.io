@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="fixed-top">
+  <header class="fixed-top wow fadeInUp">
     <div class="container">
       <div class="row top-nav">
         <div class="col-lg-2">
@@ -19,7 +19,7 @@
           </div>
           <button class="top-nav__btn-menu d-block d-lg-none">=</button>
         </div>
-        <div class="col-lg-6 p-0">
+        <div class="col-lg-6 p-0 mt-1">
           <div class="top-nav__menu  d-none d-lg-block">
             <ul class="">
               <li><a href="./index.html">Главная</a></li>
@@ -55,7 +55,7 @@
         <div class="row">
           <div class="col-md-6">
             <p class="feedback__title">Оставить заявку</p>
-          <div class="feedback__description">
+            <div class="feedback__description">
               <p>Наш адрес: 2-й Почаевский проезд, д. 2</p>
               <p>Узнайте цены по телефону</p>
               <p>8 (4922) 60-13-26</p>
@@ -66,10 +66,12 @@
           </div>
           <div class="col-md-6">
             <form action="">
-              <span class="phone_number"></span>
-              <input name="phone" type="text" placeholder="Номер телефона">
-              <span class="vin_number"></span>
-              <input name="vin" id="vin" type="text" placeholder="VIN машины">
+              <div class="phone_number">
+                <input name="phone" type="text" placeholder="Номер телефона">
+              </div>
+              <div class="vin_number">
+                <input name="vin" id="vin" type="text" placeholder="VIN машины">
+              </div>
               <textarea name="spares" id="" placeholder="Напишите список запчастей"></textarea>
               <input type="submit" value="Отправить" class="submit">
             </form>
@@ -96,14 +98,17 @@
             <a href=""><span class="social__item-icon"></span></a>
             <a href=""><span class="social__item-icon"></span></a>
           </div>
-          <p class="offer ">Запчасти для иномарок " 33 детали " - ИП Владимиров А.В. <br>Не является публичной офертой</p>
+          <p class="offer ">Запчасти для иномарок " 33 детали " - ИП Владимиров А.В.
+            <br>Не является публичной офертой</p>
           <p>Разработка сайтов</p>
         </div>
       </div>
     </div>
   </footer>
+  <link rel="stylesheet" href="assets/css/animate.css">
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/jquery.spincrement.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
