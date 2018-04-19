@@ -80,7 +80,8 @@ a {
 }
 
 a:hover {
-  text-decoration: none
+  text-decoration: none;
+    color: #f5b900;
 }
 
 .content {
