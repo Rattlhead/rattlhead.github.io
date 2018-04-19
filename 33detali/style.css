@@ -80,14 +80,10 @@ a {
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-
-  color: #fff;
 }
 
 a:hover {
   text-decoration: none;
-
-  color: #fff;
 }
 .content{
   margin-top: 100px;
@@ -106,7 +102,9 @@ a:hover {
   display: -o-flex;
   display: flex;
 }
-
+.top-nav a{
+  color: #fff;
+}
 .logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
@@ -300,6 +298,7 @@ textarea {
   background: none;
   margin: 20px 0;
   width: 48%;
+  min-width: 290px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -394,6 +393,7 @@ width: 100%;
   font-family: 'fontello';
   font-size: 30px;
   margin-right: 10px;
+  color: #fff;
 }
 
 .social__item-icon:hover {
