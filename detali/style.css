@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&subset=cyrillic');
+@font-face {
+  font-family: 'fontello';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./font/fontello.eot');
+  src: url('./font/fontello.eot') format('embedded-opentype'),
+  url('./font/fontello.woff') format('woff'),
+  url('./font/fontello.ttf') format('truetype'),
+  url('./font/fontello.svg') format('svg');
+}
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+header {
+  background: rgba(0, 0, 0, .9);
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.yellow {
+  color: #f5b900;
+}
+
+.top-nav {
+  line-height: 90px;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+
+  text-align: center;
+
+  flex-grow: 1;
+}
+
+.top-nav__btn-menu {
+  font-size: 30px;
+
+  position: absolute;
+  top: 0;
+  right: 15px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: 0;
+  background: transparent;
+}
+
+.top-nav__menu ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  list-style-position: inside;
+  list-style-type: square;
+
+  justify-content: flex-end;
+}
+
+
+
+.top-nav__menu li {
+  display: inline;
+  float: left;
+
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav__menu li a {
+  font-weight: 700;
+
+  float: left;
+
+  padding: 0 18px;
+
+  color: #fff;
+}
+
+.top-nav__menu li a:hover {
+  color: #f5b900;
+}
+
+.phone {
+
+margin-bottom: 5px;
+
+  line-height: 2;
+  display: inline-block;
+}
+
+.work-time {
+margin-bottom: 5px;
+  color: #fff;
+  line-height: 1;
+
+  display: inline-block;
+}
+
+.banner {
+  padding: 200px 0 100px 0;
+  min-height: 600px;
+  background: url('//carwash.dttheme.com/wp-content/uploads/revslider/car-wash/slider3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__sub-title {
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.advantages {
+  padding: 50px 0;
+  background: #f5b900;
+}
+
+.advantages-item {
+  position: relative;
+  margin: 25px 0;
+}
+
+.advantages-img {
+  position: absolute;
+  opacity: 0.3;
+  margin: -20px 0 0 -20px;
+}
+
+.advantages__content {
+  z-index: 1;
+  position: relative;
+  max-width: 90%;
+}
+
+.advantages__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.advantages__description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.availability {
+  background: #f2f2f2;
+}
+
+.availability__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.availability__description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+
+.numbers {
+  padding: 50px 0;
+}
+
+.numbers__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.numbers-item__number {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.numbers-item__title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #999;
+}
+
+.map {
+  min-height: 350px;
+}
+
+footer {
+  background: #000;
+}
+
+.feedback {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.feedback input[type="text"],
+textarea {
+  border: 0;
+  border-bottom: 2px solid #000;
+  color: #000;
+  padding: 15px 0 10px 30px;
+  font-size: 14px;
+  background: none;
+  margin: 20px 0;
+  width: 48%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feedback input::placeholder,
+textarea::placeholder {
+  color: #000;
+}
+
+textarea {
+  padding: 0;
+  width: 100%;
+}
+.phone_number{
+  position: relative;
+  height: 10px;
+}
+.phone_number:before{
+content: '';
+  font-family: 'fontello';
+bottom: 0;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+.vin_number{
+  position: relative;
+  height: 10px;
+}
+.vin_number:before{
+  content: '';
+  font-family: 'fontello';
+bottom: 0;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+.submit {
+  border: 0;
+  float: right;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  margin: 20px 0 0 20px;
+  padding: 16px 30px;
+}
+
+.submit:hover {
+  background-color: #f5b900;
+  color: #000;
+}
+
+.feedback__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+
+.feedback__description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
+.feedback__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.requisites {
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.offer {
+  color: rgba(255, 255, 255, 0.5);
+  display: table-cell;
+  vertical-align: bottom
+}
+
+.social__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.social__item-icon {
+  font-family: 'fontello';
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.social__item-icon:hover {
+  color: #f5b900;
+  transition: all .3s linear;
+}
+
+@media (max-width: 992px) {
+  .advantages-img {
+
+  margin: 0 0 0 25%;
+  }
+
+
+    .phone {
+
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+
+  .top-nav {
+    line-height: 50px;
+  }
+
+  .top-nav__menu ul {
+    background: #1f1f1f;
+    flex-direction: column;
+    line-height: 40px;
+  }
+}
