@@ -84,6 +84,8 @@ a:hover {
     color: #f5b900;
 }
 
+
+
 .content {
   margin-top: 100px;
   padding: 50px 15px
@@ -123,12 +125,17 @@ a:hover {
   text-align: center;
   flex-grow: 1
 }
+.logo img{
+  max-width: 100%;
+  height: auto;
+max-height: 50px;
+}
 
 .top-nav__btn-menu {
   font-size: 30px;
   position: absolute;
   top: 0;
-  right: 15px;
+  right: 7px;
   cursor: pointer;
   color: #fff;
   border: 0;
@@ -166,12 +173,16 @@ a:hover {
 }
 
 .phone {
+  font-family: 'Montserrat', sans-serif;
+
   margin-bottom: 5px;
   line-height: 2;
   display: inline-block
 }
 
 .work-time {
+  font-family: 'Montserrat', sans-serif;
+
   margin-bottom: 5px;
   color: #fff;
   line-height: 1;
@@ -185,6 +196,23 @@ a:hover {
   background-size: auto;
   background-position: 50% 50%;
   background-attachment: fixed
+}
+
+.banner__btn{
+background: #f5b900;
+  font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+color: #000;
+width: 90%;
+padding: 20px 0;
+}
+.banner__btn:hover{
+  color: #f5b900;
+background: #000;
+}
+.banner-text{
+padding: 50px 0;
+background: rgba(255,255,255,0.3);
 }
 
 .banner__title {
@@ -248,7 +276,7 @@ a:hover {
 }
 
 .numbers {
-  padding: 50px 0
+padding: 50px 0;
 }
 
 .numbers__title {
@@ -363,7 +391,8 @@ textarea {
 
 .requisites {
   padding: 10px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
   font-size: 14px;
   color: #fff
 }
@@ -393,6 +422,9 @@ textarea {
 }
 
 @media (max-width: 992px) {
+  .logo img{
+    margin-left: -30px;
+  }
   .advantages-img {
     margin: 0 0 0 25%
   }
