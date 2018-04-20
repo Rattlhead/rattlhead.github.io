@@ -35,9 +35,10 @@ $(document).ready(function() {
   };
   // Конец анимация чисел
 
+  // Скрипты с меню
   // Начало изменения меню
   $(window).on("scroll load resize", function() {
-    console.log($(window).scrollTop());
+    // console.log($(window).scrollTop());
     if ($(window).scrollTop() > 50) {
 
       $(".top-nav").addClass("min-top-nav");
@@ -46,13 +47,15 @@ $(document).ready(function() {
   });
   // Конец изменения меню
 
-  // Начало скрипты меню
+  // Начало скрипта открытие меню
   $(".top-nav__btn-menu").on('click', function() {
     $(".top-nav__menu").toggleClass("d-none");
   });
-  // Конец скрипта меню
+  // Конец скрипта открытие меню
+  // Конец скриптов меню
 
-  // Начало Скрол до элемента
+
+  // Начало скролл до элемента
   $("a").click(function() {
     var elementClick = $(this).attr("href");
     var destination = $(elementClick).offset().top;
@@ -60,5 +63,5 @@ $(document).ready(function() {
     $('body').animate({ scrollTop: destination }, 500);
     return false;
   });
-  // Конец Скрол до элемента
+  // Конец скролл до элемента
 });
