@@ -94,7 +94,10 @@ a:hover {
 .yellow {
   color: #f5b900
 }
+.icon{
+  font-family: 'fontello';
 
+}
 .top-nav {
   line-height: 90px;
   display: flex;
