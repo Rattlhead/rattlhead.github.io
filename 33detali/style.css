@@ -218,7 +218,9 @@ background: rgba(255,255,255,0.3);
 .banner__title {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
-  font-weight: 700
+  font-weight: 700;
+  color:#000;
+  text-shadow: 1px 1px #000;
 }
 
 .banner__sub-title {
