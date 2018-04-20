@@ -22,15 +22,13 @@ $(document).ready(function() {
       var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
       if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
 
-        $(countbox).spincrement(
-        {
+        $(countbox).spincrement({
 
           duration: 1500,
           complete: function(e) {
             e.text(e.text() + 'k+')
           }
-        }
-        );
+        });
         show = false;
       }
     });
