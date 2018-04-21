@@ -34,4 +34,5 @@ body {
 
 .brands__item {
   width: 50px
+  max-height: 50px;
 }
