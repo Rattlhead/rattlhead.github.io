@@ -3,22 +3,24 @@
   src: url('assets/fonts/OROSKO.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=cyrillic');
-
 body {
-  background: url(assets/img/bg.jpg);
-  background-size: auto;
-  background-position: 50% 50%;
+overflow-x: hidden;
+font-family: 'Roboto', sans-serif;
 }
 
-
+.banner{
+height: 100vh;
+  background: url(assets/img/bg.jpg);
+  background-size: auto;
+  background-position: 50% 100%;
+}
 .company_name {
   color: #fff;
   display: inline-block;
   border: 5px solid #fff;
   max-width: 100%;
   padding: 20px 20px 10px 20px;
-  margin-top: 50px;
+  margin-bottom: 20px;
   font-size: 40px;
   text-transform: uppercase;
   font-family: orosko, sans-serif;
@@ -27,13 +29,17 @@ body {
 }
 
 .company_description {
-  font-size: 18px;
-  text-shadow: none;
-  color: #fff;
-  font-family: 'Oswald', sans-serif;
+  width: 490px;
+  max-width: 100%;
+  margin: auto;
+  padding: 10px;
+  background: #fff;
+  font-size: 24px;
+  color: #354051;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-
-.brands__item {
-  width: 50px;
-  max-height: 50px;
+.portfolio{
+  padding: 50px 0;
+  background: #fff;
 }
