@@ -3,6 +3,13 @@
   src: url('assets/fonts/OROSKO.ttf');
 }
 
+.bg-warning {
+    background-color: #2B3A42!important;
+}
+.text-warning {
+    color: #BDD4DE!important;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
@@ -56,63 +63,43 @@ h1,
   .h1 {
     font-size: 32px;
   }
-}*/
+  }*/
 
-.banner {
-  height: 100vh;
-  padding: 50px 0;
-  background: url(assets/img/bg.jpg);
-  background-size: auto;
-  background-position: 50% 100%;
+  .banner {
+    height: 100vh;
+    padding: 50px 0;
+    background: url(assets/img/bg.jpg);
+    background-size: auto;
+    background-position: 50% 100%;
+  }
+
+  .company_name {
+    color: #fff;
+    display: inline-block;
+    border: 5px solid #fff;
+    max-width: 100%;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-family: orosko, sans-serif;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .company_description {
+    width: 490px;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    background: #fff;
+    color: #354051;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
 }
 
-.company_name {
-  color: #fff;
-  display: inline-block;
-  border: 5px solid #fff;
-  max-width: 100%;
-  padding: 20px 20px 10px 20px;
-  margin-bottom: 20px;
-
-  text-transform: uppercase;
-  font-family: orosko, sans-serif;
-  font-weight: bold;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.company_description {
-  width: 490px;
-  max-width: 100%;
-  margin: auto;
-  padding: 10px;
-  background: #fff;
-
-  color: #354051;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.portfolio {
-  padding: 50px 0;
-text-align: center;
-  background: #fff;
-}
-.portfolio__title{
-color: #424344;
-font-weight: 700;
-}
-
-.portfolio-item{
-  /*border: 1px solid #808080;*/
-
-  margin: auto;
- margin-top: 25px;
- cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(1,1,1,0.4);
-    transition: 0.5s;
-
-}
-
-.portfolio__description{
-  color: #808080;
-}
