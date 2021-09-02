@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'orosko';
-  src: url('assets/fonts/OROSKO.ttf');
+    font-family: 'orosko';
+    src: url('assets/fonts/OROSKO.ttf');
 }
 
 /*.bg-warning {
@@ -10,39 +10,40 @@
     color: #BDD4DE!important;
     }*/
 
-    body {
-      overflow-x: hidden;
-      /*font-family: 'Roboto', sans-serif;*/
-      font-display: swap;
-    }
+body {
+    overflow-x: hidden;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-display: swap;
+}
 
-    .nav-link{
-      color: #fff;
-    }
+.nav-link {
+    color: #fff;
+}
 
-    .nav-link:focus, .nav-link:hover {
-     color: #193441;
-     background-color: rgba(255,255,255,95%);
-
-     transition-duration: 0.5s;
-   }
-
-   .nav-pills .nav-link.active{
+.nav-link:focus,
+.nav-link:hover {
     color: #193441;
-    background-color: rgba(255,255,255,95%);
+    background-color: rgba(255, 255, 255, 95%);
 
-  }
+    transition-duration: 0.5s;
+}
 
-  .banner {
+.nav-pills .nav-link.active {
+    color: #193441;
+    background-color: rgba(255, 255, 255, 95%);
+
+}
+
+.banner {
     height: 100vh;
     background: url(assets/img/bg.webp);
     background-color: #242526;
     background-size: auto;
     background-position: 50% 100%;
-  }
+}
 
 
-  .company_name {
+.company_name {
     color: #fff;
     display: inline-block;
     border: 5px solid #ffc107;
@@ -54,57 +55,59 @@
     font-family: orosko, sans-serif;
     font-weight: bold;
     background: rgba(0, 0, 0, .4);
-  }
+}
 
-  .company_description {
+.company_description {
     width: 350px;
     max-width: 100%;
     margin: auto;
     padding: 10px;
-    background: rgba(255,255,255,70%);
+    background: rgba(255, 255, 255, 70%);
     color: #354051;
     font-weight: bold;
     text-transform: uppercase;
-  }
+}
 
-  .card-text{ 
+.card-text {
     max-height: 150px;
 
-  }
-  .card-title{
+}
+
+.card-title {
     text-transform: uppercase;
     color: #ffc107;
-    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%); 
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
     font-weight: bold;
-  }
+}
 
-  .product-card {
+.product-card {
     overflow: hidden;
     text-align: center;
-  
 
-  }
-  .product-title {
-    text-shadow: 1px 2px 4px rgb(0 0 0 / 50%); 
+
+}
+
+.product-title {
+    text-shadow: 1px 2px 4px rgb(0 0 0 / 50%);
     font-weight: bold;
     text-transform: uppercase;
     color: #ffc107;
-  }
+}
 
-  .product-img{
-    width: 80%; 
+.product-img {
+    width: 80%;
     height: 100%;
-    max-height: 300px;
+    
     border-radius: 21px 21px 0 0;
     overflow: hidden;
-  }
-  .text-shadow{
+}
+.product-card-img{
+max-height: 300px;
+}
+.text-shadow {}
 
-  }
-
-  @media (min-width: 768px) {
-    .flex-md-equal > * {
-      flex: 1;
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
     }
-  }
-
+}
