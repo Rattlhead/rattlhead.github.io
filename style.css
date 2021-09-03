@@ -27,13 +27,15 @@ body {
 
     transition-duration: 0.5s;
 }
-.nav-item .nav-link{
-   border-radius: 5px;
+
+.nav-item .nav-link {
+    border-radius: 5px;
 }
+
 .nav-pills .nav-link.active {
     color: #193441;
     background-color: rgba(255, 255, 255, 95%);
-   
+
 
 }
 
@@ -47,6 +49,7 @@ body {
 }
 
 .banner {
+    position: relative;
     height: 100vh;
     background: url(assets/img/bg.webp);
     background-color: #242526;
