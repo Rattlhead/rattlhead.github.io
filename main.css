@@ -13,3 +13,55 @@
 .link:hover {
     transform: translateY(-3px);
 }
+
+.link-box:nth-child(2) .link:after {
+    background-color: #aadc76;
+}
+
+.link-box:nth-child(3) .link:after {
+    background-color: #ff6189;
+}
+
+.link-box:nth-child(4) .link:after {
+    background-color: #78dce9;
+}
+
+.link-box:nth-child(5) .link:after {
+    background-color: #fc9968;
+}
+
+.link-box:nth-child(6) .link:after {
+    background-color: #a9a9a9;
+}
+
+.link-box:nth-child(7) .link:after {
+    background-color: aqua;
+}
+
+.link-box:nth-child(8) .link:after {
+    background-color: darkorange;
+}
+
+.link-box:nth-child(9) .link:after {
+    background-color: dodgerblue;
+}
+
+.link-box:nth-child(10) .link:after {
+    background-color: tomato;
+}
+
+.link-box:nth-child(11) .link:after {
+    background-color: #78dce9;
+}
+
+.link-box:nth-child(12) .link:after {
+    background-color: #a9a9a9;
+}
+
+.link-box:nth-child(13) .link:after {
+    background-color: tomato;
+}
+
+.link-box:nth-child(14) .link:after {
+    background-color: tomato;
+}
