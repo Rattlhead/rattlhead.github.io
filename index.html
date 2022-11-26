@@ -1,18 +1,21 @@
 ---
 layout: default
 ---
-
+<!-- краткое описание -->
+bk
+<!-- {{ post.excerpt }} -->
 <div class="posts">
-  {% for post in site.posts %}
+    {% for post in site.posts %}
+    <p class="link-box">
+      <a href="{ site.baseurl }}{{ post.url }}" target="_blank" class=" link  "><span class="num">0. </span>{{ post.title }}</a>
+    </p>
+
+
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="entry">
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  {% endfor %}
+    {% endfor %}
 </div>
