@@ -3,6 +3,24 @@ layout: post
 title: You're up and running!
 ---
 
+
+Переменная - это именованный контейнер для заданного значения.
+
+  <pre><code data-language="python">
+	# Пример создания переменных
+
+	age = 19
+	name = 'Ivan'
+	isActive = True
+
+	name = 'Petr'
+	Name = 'Ivan'
+
+	# name и Name - это разные переменные
+
+	# Имена переменных не могут начинаться с цифры!
+	</code></pre>
+
 привет пупсик
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
