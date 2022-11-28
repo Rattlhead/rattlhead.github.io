@@ -6,20 +6,20 @@ title: You're up and running!
 
 Переменная - это именованный контейнер для заданного значения.
 
-  <pre><code data-language="python">
-	# Пример создания переменных
+<pre><code data-language="python">
+# Пример создания переменных
 
-	age = 19
-	name = 'Ivan'
-	isActive = True
+age = 19
+name = 'Ivan'
+isActive = True
 
-	name = 'Petr'
-	Name = 'Ivan'
+name = 'Petr'
+Name = 'Ivan'
 
-	# name и Name - это разные переменные
+# name и Name - это разные переменные
 
-	# Имена переменных не могут начинаться с цифры!
-	</code></pre>
+# Имена переменных не могут начинаться с цифры!
+</code></pre>
 
 привет пупсик
 
