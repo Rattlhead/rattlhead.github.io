@@ -1,7 +1,9 @@
 p,h1{
   font-family: 'Anonymous Pro', monospace;
 }
-
+body{
+  background-color: #FFFADD;
+}
 pre{
   border-radius: 10px;
 }
