@@ -4,26 +4,30 @@ layout: default
 <!-- краткое описание -->
 <!-- {{ post.excerpt }} -->
 <div class="posts">
-    {% for post in site.posts %}
-    <p class="link-box">
-      <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link  "><span class="num">0. </span>{{ post.title }}</a>
-    </p>
+  {% for post in site.posts %}
+  <p class="link-box">
+    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link  "><span class="num">0. </span>{{ post.title }}</a>
+  </p>
 
 
-    <!-- <article class="post">
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <div class="entry">
-        </div>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article> -->
-    {% endfor %}
 
-    		<pre><code data-language="python">
+  {% endfor %}
+
+  <pre><code data-language="python">
     # Пример создания переменных
 
     age = 19
     name = 'Ivan'
     isActive = True
 
-    		</code></pre>
+  </code></pre>
+  {% for post in site.posts %}
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="entry">
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+  {% endfor %}
+
 </div>
