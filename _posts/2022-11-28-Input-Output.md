@@ -165,7 +165,7 @@ print(2+2)
 
 # Рекомендуется
 name = 'Ivan'
-print (2 + 2)
+print(2 + 2)
 
 </code></pre>
 
