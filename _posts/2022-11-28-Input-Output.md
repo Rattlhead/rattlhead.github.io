@@ -119,8 +119,7 @@ isReady = True # всего два значения: True и False
 * имя не может начинаться с цифры;
 * имя не может содержать специальных символов @, $, %.
 
-Для название переменных принято использовать один из трех методов:
-* kebab-case — составные части переменной разделяются дефисом (my-super-var)
+Для название переменных принято использовать один метод:
 * snake_case — для разделения используется подчеркивание (my_super_var)
 * CamelCase — каждое слово в переменной пишется с заглавной буквы (MySuperVar)
 
@@ -131,7 +130,6 @@ year = '2000'
 name = 'Ivan'
 my_name = "Maxim" #snake_case
 MyName = 'Vity' #CamelCase
-my-name = "Alex" #kebab-case
 isActive = True
 
 # Рекомендуется
@@ -160,8 +158,8 @@ Name = 'Ivan'
 
 <pre><code data-language="python">
 # Не рекомендуется
-name='Ivan'
-print(2+2)
+name = 'Ivan'
+print(2 + 2)
 
 # Рекомендуется
 name = 'Ivan'
@@ -175,10 +173,10 @@ print(2 + 2)
 
 <pre><code data-language="python">
 # Переменная age содержит в себе данные "22" типа str
-age = '22' # str -> '22'
-age = int(age) # int -> 22
-age = float(age) # float -> 22.0
-age = bool(age) # bool -> True
+age = '22'  # str -> '22'
+age = int(age)  # int -> 22
+age = float(age)  # float -> 22.0
+age = bool(age)  # bool -> True
 
 </code></pre>
 
@@ -186,9 +184,9 @@ age = bool(age) # bool -> True
 
 <pre><code data-language="python">
 # Калькулятор А+В=
-a = input("Введите число А= ") # ввел число 1
-b = input("Введите число B= ") # ввел число 2
-print (a+b)
+a = input("Введите число А= ")  # ввел число 1
+b = input("Введите число B= ")  # ввел число 2
+print(a + b)
 # Ответ неожиданно будет не 3, а 12.
 
 </code></pre>
@@ -196,9 +194,10 @@ print (a+b)
 <pre><code data-language="python">
 # Калькулятор А+В=
 # int() - преобразует введенные данные в число, если преобразовать невозможно то выдаст ошибку.
-a = int(input("Введите число А= ")) # ввел число 1
-b = int(input("Введите число B= ")) # ввел число 2
-print (a+b)
+a = int(input("Введите число А= "))  # ввел число 1
+b = int(input("Введите число B= "))  # ввел число 2
+print(a + b)
+
 # Ответ 3 тк теперь мы складываем две переменных типа int(число)
 
 </code></pre>
