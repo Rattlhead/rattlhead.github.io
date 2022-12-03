@@ -3,14 +3,17 @@ html {
 }
 
 :root { /* Default Light Mode colors */
-    --primary-color: black;
-    --primary-background: white;
+    --primary-color: rgba(0, 0, 0, 0.9);
+			--title-color: rgba(0, 0, 0, 1);
+    --primary-background: #FFFADD;
+		--content-background: #f9f3d0;
+
 }
 
 @media(prefers-color-scheme: dark) {
     :root { /* Dark Mode colors */
         --primary-color: #abb2bf;
-				--title-color:
+				--title-color:#e06c75;
         --primary-background: #21252b;
 				--content-background: #282c34;
     }
@@ -24,6 +27,7 @@ body {
 h1,h2,h3,h4,h5,h6{
   font-family: "Menlo", "Consolas", "DejaVu Sans Mono", monospace;
 	color: var(--title-color);
+
 }
 summary{
 	color: rgba(0, 0, 0, 0.1);
