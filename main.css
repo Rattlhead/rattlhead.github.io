@@ -1,23 +1,23 @@
 html {
-    color-scheme: light dark; /* This site supports both light and dark mode */
+	color-scheme: light dark; /* This site supports both light and dark mode */
 }
 
 :root { /* Default Light Mode colors */
-    --primary-color: rgba(0, 0, 0, 0.9);
-		--title-color: rgba(0, 0, 0, 1);
-    --primary-background: #FFFADD;
-		--content-background: #f9f3d0;
+	--primary-color: rgba(0, 0, 0, 0.9);
+	--title-color: rgba(0, 0, 0, 1);
+	--primary-background: #FFFADD;
+	--content-background: #f9f3d0;
 
 }
 
 @media(prefers-color-scheme: dark) {
-    :root { /* Dark Mode colors */
-        --primary-color: #abb2bf;
-				--title-color:#e06c75;
-        --primary-background: #21252b;
-				--content-background: #282c34;
-				--link-color: #828997;
-    }
+	:root { /* Dark Mode colors */
+		--primary-color: #abb2bf;
+		--title-color:#e06c75;
+		--primary-background: #21252b;
+		--content-background: #282c34;
+		--link-color: #828997;
+	}
 }
 
 a {
@@ -25,53 +25,55 @@ a {
 }
 
 body {
-    color: var(--primary-color);
-    background: var(--primary-background);
+	color: var(--primary-color);
+	background: var(--primary-background);
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: "Menlo", "Consolas", "DejaVu Sans Mono", monospace;
+	font-family: 'Anonymous Pro', monospace;
 	color: var(--title-color);
-
+}
+p{
+	font-family: "Menlo", "Consolas", "DejaVu Sans Mono", monospace;
 }
 summary{
 	color: rgba(0, 0, 0, 0.1);
 }
 
 .post em {
-    color: #98c379;
-    font-style: normal;
+	color: #98c379;
+	font-style: normal;
 }
 
 .content {
-    background-color: var(--content-background);
-    /* color: rgba(0, 0, 0, 0.8); */
+	background-color: var(--content-background);
+	/* color: rgba(0, 0, 0, 0.8); */
 }
 
 pre{
-  border-radius: 1rem;
+	border-radius: 1rem;
 }
 
 
 .link_post-box {
-  margin: 15px 0;
+	margin: 15px 0;
 	font-family: 'Anonymous Pro', monospace;
 }
 
 .link_post:hover{
 
 
-  }
+}
 
 .link_post {
 
-  padding: 15px 10px;
-  font-size: 26px;
-  text-decoration: none;
-  position: relative;
+	padding: 15px 10px;
+	font-size: 26px;
+	text-decoration: none;
+	position: relative;
 	color: var(--primary-color);
-  display: inline-block;
-  line-height: 1;
+	display: inline-block;
+	line-height: 1;
 	transition: 0.3s;
 	z-index: 0;
 
@@ -79,76 +81,76 @@ pre{
 
 
 .link_post:after{
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  height: 15px;
-  background-color: red;
-  opacity: 0.3;
-  transition: 0.3s;
-  width: 100%;
-  z-index: -1;
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	height: 15px;
+	background-color: red;
+	opacity: 0.3;
+	transition: 0.3s;
+	width: 100%;
+	z-index: -1;
 }
 
 @media all and (pointer:fine) {
-  .link_post:hover:after {
-    height: 100%;
-    opacity: 0.6;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-  }
-  .link_post:hover {
-    transform: translateY(-3px);
-  }
-  .button:hover {
-    background-color: #00658b
-  }
-  .button:hover svg {
-    transform: rotate(360deg)
-  }
+	.link_post:hover:after {
+		height: 100%;
+		opacity: 0.6;
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	}
+	.link_post:hover {
+		transform: translateY(-3px);
+	}
+	.button:hover {
+		background-color: #00658b
+	}
+	.button:hover svg {
+		transform: rotate(360deg)
+	}
 }
 
 .link_post-box:nth-child(1) .link_post:after {
-  background-color: #aadc76;
+	background-color: #aadc76;
 }
 .link_post-box:nth-child(2) .link_post:after {
-  background-color: #ff6189;
+	background-color: #ff6189;
 }
 .link_post-box:nth-child(3) .link_post:after {
-  background-color: #78dce9;
+	background-color: #78dce9;
 }
 .link_post-box:nth-child(4) .link_post:after {
-  background-color: #fc9968;
+	background-color: #fc9968;
 }
 .link_post-box:nth-child(5) .link_post:after {
-  background-color: #a9a9a9;
+	background-color: #a9a9a9;
 }
 .link_post-box:nth-child(6) .link_post:after {
-  background-color: aqua;
+	background-color: aqua;
 }
 .link_post-box:nth-child(7) .link_post:after {
-  background-color: darkorange;
+	background-color: darkorange;
 }
 
 .link_post-box:nth-child(8) .link_post:after {
-  background-color: dodgerblue;
+	background-color: dodgerblue;
 }
 .link_post-box:nth-child(9) .link_post:after {
-  background-color: tomato;
+	background-color: tomato;
 }
 
 .link_post-box:nth-child(10) .link_post:after {
-  background-color: #78dce9;
+	background-color: #78dce9;
 }
 
 .link_post-box:nth-child(11) .link_post:after {
-  background-color: #a9a9a9;
+	background-color: #a9a9a9;
 }
 
 .link_post-box:nth-child(12) .link_post:after {
-  background-color: tomato;
+	background-color: tomato;
 }
 
 .link_post-box:nth-child(13) .link_post:after {
-  background-color: tomato;
+	background-color: tomato;
 }
