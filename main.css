@@ -52,7 +52,20 @@ pre{
   border-radius: 1rem;
 }
 
+
+.link_post-box {
+  margin: 15px 0;
+	font-family: 'Anonymous Pro', monospace;
+}
+
+.link_post:hover{
+	color: var(--primary-color);
+
+
+  }
+
 .link_post {
+
   padding: 15px 10px;
   font-size: 26px;
   text-decoration: none;
@@ -64,13 +77,7 @@ pre{
 	z-index: 0;
 
 }
-.link_post:hover{
-    color: #222;
-  }
 
-.link_post-box {
-  margin: 15px 0;
-}
 
 .link_post:after{
   content: '';
