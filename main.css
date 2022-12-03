@@ -62,7 +62,7 @@ pre{
 }
 
 .link_post:hover{
-	color: var(--primary-color);
+	color: #000;
 }
 
 .link_post {
