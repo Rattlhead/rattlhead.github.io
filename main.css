@@ -4,7 +4,7 @@ html {
 
 :root { /* Default Light Mode colors */
     --primary-color: rgba(0, 0, 0, 0.9);
-			--title-color: rgba(0, 0, 0, 1);
+		--title-color: rgba(0, 0, 0, 1);
     --primary-background: #FFFADD;
 		--content-background: #f9f3d0;
 
