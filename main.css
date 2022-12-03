@@ -46,6 +46,7 @@ summary{
 }
 
 .content {
+	border: 1px solid #3c4048;
 	background-color: var(--content-background);
 	/* color: rgba(0, 0, 0, 0.8); */
 }
