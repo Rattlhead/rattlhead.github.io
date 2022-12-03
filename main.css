@@ -9,8 +9,10 @@ html {
 
 @media(prefers-color-scheme: dark) {
     :root { /* Dark Mode colors */
-        --primary-color: white;
-        --primary-background: black;
+        --primary-color: #abb2bf;
+				--title-color:
+        --primary-background: #21252b;
+				--content-background: #282c34;
     }
 }
 
@@ -19,13 +21,9 @@ body {
     background: var(--primary-background);
 }
 
-
-
-
-
-
-p,h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
   font-family: "Menlo", "Consolas", "DejaVu Sans Mono", monospace;
+	color: var(--title-color);
 }
 summary{
 	color: rgba(0, 0, 0, 0.1);
@@ -147,6 +145,7 @@ a.link:hover{
 .title{
   margin: 1em 0;
 }
+
 .code, .high {
   line-height: 1;
   display: inline-block;
@@ -188,7 +187,6 @@ a.link:hover{
 }
 
 .orange {
-  font-style: italic;
   color: #fc9968!important;
 }
 
