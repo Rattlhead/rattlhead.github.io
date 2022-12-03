@@ -33,7 +33,7 @@ summary{
 	color: rgba(0, 0, 0, 0.1);
 }
 .row {
-    background-color: #f9f3d0;
+    background-color: var(--content-background);
     border-radius: 10px;
     /* color: rgba(0, 0, 0, 0.8); */
 }
