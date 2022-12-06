@@ -39,6 +39,11 @@ p {
 	font-family: "Menlo", "Consolas", "DejaVu Sans Mono", monospace;
 }
 
+.PostTitle{
+	text-transform: uppercase;
+text-align: center;
+}
+
 /* Цвет подсказки */
 .help {
 	color: var(--help-text);
@@ -47,6 +52,13 @@ p {
 .post em {
 	color: #98c379;
 	font-style: normal;
+}
+
+.GoToMain {
+color: #4e78cc;
+text-decoration: none;
+text-align: ;
+text-transform: uppercase;
 }
 
 .content {
