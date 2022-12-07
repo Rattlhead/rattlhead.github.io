@@ -83,3 +83,34 @@ else:
 print('Программа дальше')
 
 </code></pre>
+
+## Пример
+
+0. Игра угадай число.
+
+	Программа загадывает число от 1 до 10, ваша задача угадать его. После победы программа покажет количество попыток. Для выхода из игры нужно ввести 666.
+
+	<pre><code data-language="python">
+
+	from random import randint
+
+	random_num = randint(1, 10)
+	in_num = 0
+	counter = 0
+
+	print('Загадано число от 1 до 10, ваша цель угадать его.')
+	print('Для выхода введите 666 ')
+	while in_num != random_num:
+	    counter += 1
+	    in_num = int(input('Введите число: '))
+	    if in_num == 666:
+	        break
+	else:
+	    print(f'Поздравляем, Вы, выиграли. Количество попыток {counter}, ')
+
+	print('До свидание')
+
+
+	</code></pre>
+
+0.
