@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3.Цикл while
+title: 4.Цикл while
 ---
 
 ### Цикл
@@ -128,7 +128,7 @@ print('Программа дальше')
 		print(A)
 		A -= 1
 	</code></pre>
-	
+
 ***
 
 ## Задачи
