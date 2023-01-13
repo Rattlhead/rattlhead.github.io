@@ -17,13 +17,17 @@ html {
 		--title-color:#e06c75;
 		--primary-background: #21252b;
 		--content-background: #282c34;
-		--link-color: #828997;
+		--link-color: #56b6c2;
+		--link-color-hover:#5ccedd;
 		--help-text: rgba(170, 178, 191, 0.1);
 	}
 }
 
 a {
 	color: var(--link-color)
+}
+a:hover {
+	color: var(--link-color-hover)
 }
 
 body {
