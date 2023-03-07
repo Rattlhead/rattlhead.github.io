@@ -6,7 +6,9 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
+  ------
     {{post}}
+  ------
     {% if post.theme == "python" %}
     <p class="link_post-box">
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{ post.title }}</a>
