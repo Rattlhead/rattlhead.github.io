@@ -5,10 +5,7 @@ layout: default
 <!-- {{ post.excerpt }} -->
 
 <div class="posts">
-  {% for post in site.posts %}
-  ------
-    {{post}}
-  ------
+  {% for post in site.posts|sort: "index"  %}
     {% if post.theme == "python" %}
     <p class="link_post-box">
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{ post.title }}</a>
