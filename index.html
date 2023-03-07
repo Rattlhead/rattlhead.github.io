@@ -6,7 +6,8 @@ layout: default
 
 <div class="posts">
   ***************
-  {% for post in site.posts|sort: "index"  %}
+ {% assign posts = site.posts | sort: "index"  %}
+  {% for post in posts %}
     {% if post.theme == "python" %}
     <p class="link_post-box">
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
