@@ -1,5 +1,7 @@
 ---
 layout: post
+theme: python
+index: 0
 title: 0.Ввод и вывод данных, переменные
 ---
 
