@@ -9,7 +9,7 @@ layout: default
   {% for post in site.posts|sort: "index"  %}
     {% if post.theme == "python" %}
     <p class="link_post-box">
-       <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{ post.title }}</a>
+       <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
     </p>
     {% endif %}
   {% endfor %}
