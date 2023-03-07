@@ -1,5 +1,7 @@
 ---
 layout: post
-title: 6.Функции
+theme: python
+index: 6
+title: Функции
 ---
 Материал пишется
