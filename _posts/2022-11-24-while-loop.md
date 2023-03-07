@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 4.Цикл while
+theme: python
+index: 4
+title: Цикл while
 ---
 
 ### Цикл
