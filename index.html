@@ -8,6 +8,13 @@ layout: default
  {% assign posts = site.posts | sort: "index"  %}
   {% for post in posts %}
     {% if post.theme == "python" %}
+		<h1>Python</h1>
+    <p class="link_post-box">
+       <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
+    </p>
+    {% endif %}
+		{% if post.theme == "3d print" %}
+		<h1>Python</h1>
     <p class="link_post-box">
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
     </p>
