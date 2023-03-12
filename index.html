@@ -6,13 +6,16 @@ layout: default
 
 <div class="posts">
  {% assign posts = site.posts | sort: "index"  %}
+ <h1>Python</h1>
   {% for post in posts %}
     {% if post.theme == "python" %}
-		<h1>Python</h1>
     <p class="link_post-box">
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
     </p>
     {% endif %}
+	{% endfor %}
+
+	{% for post in posts %}
 		{% if post.theme == "3d printing" %}
 		<h1>Python</h1>
     <p class="link_post-box">

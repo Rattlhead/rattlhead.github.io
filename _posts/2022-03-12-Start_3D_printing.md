@@ -1,6 +1,6 @@
 ---
 layout: post
-theme: 3D printing
+theme: 3d printing
 index: 1
 title: Начало 3D печати
 ---
