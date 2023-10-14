@@ -23,6 +23,14 @@ layout: default
        <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" class=" link_post ">{{post.index}} - {{ post.title }}</a>
     </p>
     {% endif %}
+    {% for post in posts %}
+    {% if post.theme == "NS" %}
+    <h1>NS</h1>
+    <p class="link_post-box">
+        <a class=" link_post " href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{post.index}} - {{ post.title
+            }}</a>
+    </p>
+    {% endif %}
   {% endfor %}
 
 </div>
