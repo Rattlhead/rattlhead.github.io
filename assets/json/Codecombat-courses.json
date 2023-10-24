@@ -1,0 +1,259 @@
+{
+  "courses": [
+    {
+      "course_name": "Разработка игр 1",
+      "courses_levels": [
+        {
+          "level_name": "1. За стеной сада",
+          "level_url": "https://codecombat.com/play/level/over-the-garden-wall?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Прогулка по кликам",
+          "level_url": "https://codecombat.com/play/level/click-gait?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Героическое путешествие",
+          "level_url": "https://codecombat.com/play/level/heros-journey?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Уди-лабиринт-ельно",
+          "level_url": "https://codecombat.com/play/level/a-maze-ing?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Драгоцветность",
+          "level_url": "https://codecombat.com/play/level/gemtacular?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Риск и награда",
+          "level_url": "https://codecombat.com/play/level/risk-and-reward?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Вострая мышь",
+          "level_url": "https://codecombat.com/play/level/vorpal-mouse?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Сокруши их",
+          "level_url": "https://codecombat.com/play/level/crushing-it?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Побег",
+          "level_url": "https://codecombat.com/play/level/jailbreak?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Бери и отдавай",
+          "level_url": "https://codecombat.com/play/level/give-and-take?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Подготовка армии",
+          "level_url": "https://codecombat.com/play/level/army-training?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Дальняя угроза",
+          "level_url": "https://codecombat.com/play/level/ranger-danger?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Забористая магия",
+          "level_url": "https://codecombat.com/play/level/hedge-magic?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Лесное нашествие",
+          "level_url": "https://codecombat.com/play/level/forest-incursion?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Метание огня",
+          "level_url": "https://codecombat.com/play/level/throwing-fire?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Их Кости",
+          "level_url": "https://codecombat.com/play/level/them-bones?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Разработка Управления поведением",
+          "level_url": "https://codecombat.com/play/level/behavior-driven-development?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Увидеть и поверить",
+          "level_url": "https://codecombat.com/play/level/seeing-is-believing?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Время жизни",
+          "level_url": "https://codecombat.com/play/level/time-to-live?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Постоянство Платит",
+          "level_url": "https://codecombat.com/play/level/persistence-pays?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Peasants and Munchkins",
+          "level_url": "https://codecombat.com/play/level/peasants-and-munchkins?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Игровая роща",
+          "level_url": "https://codecombat.com/play/level/game-grove?course=5789587aad86a6efb573701e&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Чистая доска",
+          "level_url": "https://codecombat.com/play/level/tabula-rasa?course=5789587aad86a6efb573701e&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Разработка игр 2",
+      "courses_levels": [
+        {
+          "level_name": "1. Караульная служба",
+          "level_url": "https://codecombat.com/play/level/guard-duty?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Подготовка армии 2",
+          "level_url": "https://codecombat.com/play/level/army-training-2?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Стандартный набор инструкций",
+          "level_url": "https://codecombat.com/play/level/standard-operating-procedure?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Сбор в центре",
+          "level_url": "https://codecombat.com/play/level/center-formation?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Узкое место",
+          "level_url": "https://codecombat.com/play/level/chokepoint?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Время приключений",
+          "level_url": "https://codecombat.com/play/level/adventure-time?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Время пить чай",
+          "level_url": "https://codecombat.com/play/level/teatime?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Случайный ответный удар",
+          "level_url": "https://codecombat.com/play/level/random-riposte?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Мука поражения",
+          "level_url": "https://codecombat.com/play/level/agony-of-defeat?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Lernaean Hydra",
+          "level_url": "https://codecombat.com/play/level/lernaean-hydra?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Ручная передача",
+          "level_url": "https://codecombat.com/play/level/stick-shift?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Не трогай их",
+          "level_url": "https://codecombat.com/play/level/dont-touch-them?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "13. От пыли до пыли",
+          "level_url": "https://codecombat.com/play/level/from-dust-to-dust?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Клетки",
+          "level_url": "https://codecombat.com/play/level/cages?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Бухгалтерия",
+          "level_url": "https://codecombat.com/play/level/accounts-department?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Hot Gems",
+          "level_url": "https://codecombat.com/play/level/hot-gems?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Берсерк",
+          "level_url": "https://codecombat.com/play/level/berserker?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Отмороженные салочки",
+          "level_url": "https://codecombat.com/play/level/freeze-tag?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Run for Gold",
+          "level_url": "https://codecombat.com/play/level/run-for-gold?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Стрела измельчения",
+          "level_url": "https://codecombat.com/play/level/disintegration-arrow?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Денежная игра шаг 1-й: Макет",
+          "level_url": "https://codecombat.com/play/level/game-of-coins-step-1-layout?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Денежная игра шаг 2-й: Счет",
+          "level_url": "https://codecombat.com/play/level/game-of-coins-step-2-score?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Game of Coins Step 3: Enemies",
+          "level_url": "https://codecombat.com/play/level/game-of-coins-step-3-enemies?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Game of Coins Step 4: Power-Ups",
+          "level_url": "https://codecombat.com/play/level/game-of-coins-step-4-power-ups?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Game of Coins Step 5: Balance",
+          "level_url": "https://codecombat.com/play/level/game-of-coins-step-5-balance?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Палимпсест",
+          "level_url": "https://codecombat.com/play/level/game-dev-2-final-project?course=57b621e7ad86a6efb5737e64&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Разработка игр 3",
+      "courses_levels": [
+        {
+          "level_name": "1. Правило квадрата",
+          "level_url": "https://codecombat.com/play/level/the-rule-of-the-square?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Большой Парень",
+          "level_url": "https://codecombat.com/play/level/the-big-guy?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Квантовый Прыжок",
+          "level_url": "https://codecombat.com/play/level/quantum-jump?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Looping Forest",
+          "level_url": "https://codecombat.com/play/level/looping-forest?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Плавный Ход",
+          "level_url": "https://codecombat.com/play/level/smooth-run?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Looney Gems",
+          "level_url": "https://codecombat.com/play/level/looney-gems?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Бегун Шаг 1: Окружающая среда",
+          "level_url": "https://codecombat.com/play/level/runner-step-1-environment?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Runner Step 2: Scoring",
+          "level_url": "https://codecombat.com/play/level/runner-step-2-scoring?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Runner Step 3: Enemies",
+          "level_url": "https://codecombat.com/play/level/runner-step-3-enemies?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Runner Step 4: Balance",
+          "level_url": "https://codecombat.com/play/level/runner-step-4-balance?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Разработка Игр 3 Финальный проект",
+          "level_url": "https://codecombat.com/play/level/game-dev-3-final-project?course=5a0df02b8f2391437740f74f&codeLanguage=python"
+        }
+      ]
+    }
+  ]
+}
