@@ -254,6 +254,1237 @@
           "level_url": "https://codecombat.com/play/level/game-dev-3-final-project?course=5a0df02b8f2391437740f74f&codeLanguage=python"
         }
       ]
+    },
+    {
+      "course_name": "Веб разработка 1",
+      "courses_levels": [
+        {
+          "level_name": "1. Скромное начало",
+          "level_url": "https://codecombat.com/play/level/humble-beginnings?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Экстренные новости",
+          "level_url": "https://codecombat.com/play/level/breaking-news?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Идеальный параграф",
+          "level_url": "https://codecombat.com/play/level/paragraph-paragon?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Заголовщик",
+          "level_url": "https://codecombat.com/play/level/headliner?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Иллюстративный материал",
+          "level_url": "https://codecombat.com/play/level/illustrious-imagery?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Большой и высокий",
+          "level_url": "https://codecombat.com/play/level/big-and-tall?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Опасное деление",
+          "level_url": "https://codecombat.com/play/level/dangerous-divide?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Объединение в список",
+          "level_url": "https://codecombat.com/play/level/listing-liaison?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Розыск по порядку",
+          "level_url": "https://codecombat.com/play/level/orders-wanted?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Стильные манеры",
+          "level_url": "https://codecombat.com/play/level/stylish-intent?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Первоклассный",
+          "level_url": "https://codecombat.com/play/level/classy?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Идентификация, пожалуйста",
+          "level_url": "https://codecombat.com/play/level/identification-please?course=5789587aad86a6efb573701f&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Особо опасный преступник",
+          "level_url": "https://codecombat.com/play/level/wanted-poster?course=5789587aad86a6efb573701f&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Веб разработка 2",
+      "courses_levels": [
+        {
+          "level_name": "1. JavaScript: Верные имена",
+          "level_url": "https://codecombat.com/play/level/javascript-true-names?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "2. JavaScript: Танец огня",
+          "level_url": "https://codecombat.com/play/level/javascript-fire-dancing?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "3. JavaScript: Lost in the Stacks",
+          "level_url": "https://codecombat.com/play/level/javascript-lost-in-the-stacks?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "4. JavaScript: Master of Names",
+          "level_url": "https://codecombat.com/play/level/javascript-master-of-names?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "5. JavaScript: Patrol Buster",
+          "level_url": "https://codecombat.com/play/level/javascript-patrol-buster?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "6. JavaScript: Back to Back",
+          "level_url": "https://codecombat.com/play/level/javascript-back-to-back?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "7. JavaScript: Maniac Munchkins",
+          "level_url": "https://codecombat.com/play/level/javascript-maniac-munchkins?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "8. JavaScript: Покой в движении",
+          "level_url": "https://codecombat.com/play/level/javascript-stillness-in-motion?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "9. JavaScript: A Fine Mint",
+          "level_url": "https://codecombat.com/play/level/javascript-a-fine-mint?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "10. JavaScript: Return to Thornbush Farm",
+          "level_url": "https://codecombat.com/play/level/javascript-return-to-thornbush-farm?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Запрос подтверждён",
+          "level_url": "https://codecombat.com/play/level/query-confirmed?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Закликать",
+          "level_url": "https://codecombat.com/play/level/clickthrough?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Исчезновение",
+          "level_url": "https://codecombat.com/play/level/disappearing-act?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Переключение классов",
+          "level_url": "https://codecombat.com/play/level/toggulation?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Прослушивание с выбором",
+          "level_url": "https://codecombat.com/play/level/eventful-selectors?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Sibling Rivalry",
+          "level_url": "https://codecombat.com/play/level/sibling-rivalry?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Патруль на границах",
+          "level_url": "https://codecombat.com/play/level/border-patrol?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Marginal Utility",
+          "level_url": "https://codecombat.com/play/level/marginal-utility?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Transformative Properties",
+          "level_url": "https://codecombat.com/play/level/transformative-properties?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "20. АниМания",
+          "level_url": "https://codecombat.com/play/level/animania?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Precision Coloring",
+          "level_url": "https://codecombat.com/play/level/precision-coloring?course=5789587aad86a6efb5737020&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Quizlet",
+          "level_url": "https://codecombat.com/play/level/quizlet?course=5789587aad86a6efb5737020&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Информатика 2",
+      "courses_levels": [
+        {
+          "level_name": "1. Защита лесной равнины",
+          "level_url": "https://codecombat.com/play/level/defense-of-plainswood?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Извилистая тропинка",
+          "level_url": "https://codecombat.com/play/level/course-winding-trail?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Один неверный шаг",
+          "level_url": "https://codecombat.com/play/level/one-wrong-step?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Лесное уклонение",
+          "level_url": "https://codecombat.com/play/level/forest-evasion?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Ягоды-самоцветы",
+          "level_url": "https://codecombat.com/play/level/gem-berries?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Лесные закоулки",
+          "level_url": "https://codecombat.com/play/level/woodland-cubbies?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "5a. Засада в Бэквудском лесу",
+          "level_url": "https://codecombat.com/play/level/backwoods-ambush?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Патрулекрушитель",
+          "level_url": "https://codecombat.com/play/level/patrol-buster?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "6a. Патрулекрушитель А",
+          "level_url": "https://codecombat.com/play/level/patrol-buster-a?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Сорванный пикник",
+          "level_url": "https://codecombat.com/play/level/picnic-buster?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "7a. Орлиный глаз",
+          "level_url": "https://codecombat.com/play/level/eagle-eye?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Если враг не сдается",
+          "level_url": "https://codecombat.com/play/level/if-stravaganza?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Деревенский стражник",
+          "level_url": "https://codecombat.com/play/level/village-guard?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Ферма Торнбуш",
+          "level_url": "https://codecombat.com/play/level/thornbush-farm?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Зачистка",
+          "level_url": "https://codecombat.com/play/level/cleanup?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Middle Point",
+          "level_url": "https://codecombat.com/play/level/middle-point?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Спина к спине",
+          "level_url": "https://codecombat.com/play/level/back-to-back?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Лагерь огров",
+          "level_url": "https://codecombat.com/play/level/ogre-encampment?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Sacred Glade",
+          "level_url": "https://codecombat.com/play/level/sacred-glade?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Лесной рубщик",
+          "level_url": "https://codecombat.com/play/level/woodland-cleaver?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Эльзевейр",
+          "level_url": "https://codecombat.com/play/level/elseweyr?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Бэквудское противостояние",
+          "level_url": "https://codecombat.com/play/level/backwoods-standoff?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "15a. Бэквудское противостояние А",
+          "level_url": "https://codecombat.com/play/level/backwoods-standoff-a?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "15b. Бэквудское противостояние Б",
+          "level_url": "https://codecombat.com/play/level/backwoods-standoff-b?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Дальномер",
+          "level_url": "https://codecombat.com/play/level/range-finder?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Защита крестьянина",
+          "level_url": "https://codecombat.com/play/level/peasant-protection?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Рой манчкинов",
+          "level_url": "https://codecombat.com/play/level/munchkin-swarm?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Храбрые огры",
+          "level_url": "https://codecombat.com/play/level/brave-ogres?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Безумные манчкины",
+          "level_url": "https://codecombat.com/play/level/maniac-munchkins?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Освободи Billy",
+          "level_url": "https://codecombat.com/play/level/free-billy?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Роща Танцующего Пламени",
+          "level_url": "https://codecombat.com/play/level/forest-fire-dancing?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Покой в движении",
+          "level_url": "https://codecombat.com/play/level/stillness-in-motion?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Защита Агриппы",
+          "level_url": "https://codecombat.com/play/level/the-agrippa-defense?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "22a. Защита Агриппы А",
+          "level_url": "https://codecombat.com/play/level/the-agrippa-defense-a?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "22b. Защита Агриппы Б",
+          "level_url": "https://codecombat.com/play/level/the-agrippa-defense-b?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Опасное дерево",
+          "level_url": "https://codecombat.com/play/level/dangerous-tree?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Последний охранник",
+          "level_url": "https://codecombat.com/play/level/last-guardian?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Деревенский бродяга",
+          "level_url": "https://codecombat.com/play/level/village-rover?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Деревенский смотритель",
+          "level_url": "https://codecombat.com/play/level/village-warder?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Деревенский защитник",
+          "level_url": "https://codecombat.com/play/level/village-champion?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Прекрасный монетный двор",
+          "level_url": "https://codecombat.com/play/level/a-fine-mint?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Тихая деревня",
+          "level_url": "https://codecombat.com/play/level/silent-village?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "27. Бэквудская развилка",
+          "level_url": "https://codecombat.com/play/level/backwoods-fork?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "28. Расхититель гробниц",
+          "level_url": "https://codecombat.com/play/level/tomb-raider?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "29. Призрак гробницы",
+          "level_url": "https://codecombat.com/play/level/tomb-ghost?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "30. Игра в прятки",
+          "level_url": "https://codecombat.com/play/level/seek-and-hide?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "31. Лесные шахтеры",
+          "level_url": "https://codecombat.com/play/level/forest-miners?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "32. Поручи это рубщику",
+          "level_url": "https://codecombat.com/play/level/leave-it-to-cleaver?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Лесная ловушка",
+          "level_url": "https://codecombat.com/play/level/timberland-trap?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "33. Возвращение на ферму Торнбуш",
+          "level_url": "https://codecombat.com/play/level/return-to-thornbush-farm?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "33a. Возвращение на ферму Торнбуш А",
+          "level_url": "https://codecombat.com/play/level/return-to-thornbush-farm-a?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "33b. Возвращение на ферму Торнбуш Б",
+          "level_url": "https://codecombat.com/play/level/return-to-thornbush-farm-b?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "34. Агриппа перестроенная",
+          "level_url": "https://codecombat.com/play/level/agrippa-refactored?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "35. Закрытый перекресток",
+          "level_url": "https://codecombat.com/play/level/closed-crossroad?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "36. Жадные ловушки",
+          "level_url": "https://codecombat.com/play/level/greed-traps?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Last Cannon",
+          "level_url": "https://codecombat.com/play/level/last-cannon?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Функциональный патруль",
+          "level_url": "https://codecombat.com/play/level/functional-patrol?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "37. Блэквудский Дружок",
+          "level_url": "https://codecombat.com/play/level/backwoods-buddy?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "37a. Имя для друга А",
+          "level_url": "https://codecombat.com/play/level/buddys-name-a?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "37b. Имя для друга Б",
+          "level_url": "https://codecombat.com/play/level/buddys-name-b?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "38. Имя для друга",
+          "level_url": "https://codecombat.com/play/level/buddys-name?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "39. Доктор наук Китти",
+          "level_url": "https://codecombat.com/play/level/phd-kitty?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "40. Питомец знаток",
+          "level_url": "https://codecombat.com/play/level/pet-quiz?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Своевременное слово",
+          "level_url": "https://codecombat.com/play/level/timely-word?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "41. Апорт",
+          "level_url": "https://codecombat.com/play/level/go-fetch?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "42. Сторожевой пёс",
+          "level_url": "https://codecombat.com/play/level/guard-dog?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "43. Долгая дорога",
+          "level_url": "https://codecombat.com/play/level/long-road?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Крепкая приманка",
+          "level_url": "https://codecombat.com/play/level/tough-bait?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "44. Лесная пробежка",
+          "level_url": "https://codecombat.com/play/level/forest-jogging?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "45. Лесные танцы с пушками",
+          "level_url": "https://codecombat.com/play/level/forest-cannon-dancing?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Sharp Bait",
+          "level_url": "https://codecombat.com/play/level/sharp-bait?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Насыщенная перестрелка",
+          "level_url": "https://codecombat.com/play/level/eventful-skirmish?course=5632661322961295f9428638&codeLanguage=python"
+        },
+        {
+          "level_name": "46. Power Peak",
+          "level_url": "https://codecombat.com/play/level/power-peak?course=5632661322961295f9428638&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Информатика 3",
+      "courses_levels": [
+        {
+          "level_name": "1. Друг и враг",
+          "level_url": "https://codecombat.com/play/level/friend-and-foe?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Попой-ка",
+          "level_url": "https://codecombat.com/play/level/deja-brew?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Награда и разрушение",
+          "level_url": "https://codecombat.com/play/level/reward-and-ruination?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Воздушная спасательная служба",
+          "level_url": "https://codecombat.com/play/level/air-rescue-service?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Дверь волшебников",
+          "level_url": "https://codecombat.com/play/level/the-wizards-door?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Обитель волшебников",
+          "level_url": "https://codecombat.com/play/level/the-wizards-haunt?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Измерение волшебников",
+          "level_url": "https://codecombat.com/play/level/the-wizards-plane?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Настоящая алхимия",
+          "level_url": "https://codecombat.com/play/level/true-alchemy?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Монетные крошки",
+          "level_url": "https://codecombat.com/play/level/coincrumbs?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Белый кролик",
+          "level_url": "https://codecombat.com/play/level/white-rabbit?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Хамелеоны",
+          "level_url": "https://codecombat.com/play/level/chameleons?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Rich and Safe",
+          "level_url": "https://codecombat.com/play/level/rich-and-safe?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Коррекция ветра",
+          "level_url": "https://codecombat.com/play/level/wind-correction?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Бомбардир Темнолесья",
+          "level_url": "https://codecombat.com/play/level/backwoods-bombardier?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Большой ребёнок",
+          "level_url": "https://codecombat.com/play/level/thumb-biter?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Вымирающий бурл",
+          "level_url": "https://codecombat.com/play/level/endangered-burl?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Насмешка",
+          "level_url": "https://codecombat.com/play/level/taunting?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Неправильный тип",
+          "level_url": "https://codecombat.com/play/level/wrong-type?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Роща больших бурлов",
+          "level_url": "https://codecombat.com/play/level/burlbole-grove?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Слепое расстояние",
+          "level_url": "https://codecombat.com/play/level/blind-distance?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Ударь и замри",
+          "level_url": "https://codecombat.com/play/level/hit-and-freeze?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Охотник за монетами",
+          "level_url": "https://codecombat.com/play/level/coin-hunter?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Агриппа возвращённая",
+          "level_url": "https://codecombat.com/play/level/agrippa-returned?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Металлодетектор",
+          "level_url": "https://codecombat.com/play/level/metal-detector?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Огр-захватчик",
+          "level_url": "https://codecombat.com/play/level/ogre-invaders?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Лесной Uторм",
+          "level_url": "https://codecombat.com/play/level/forest-storm?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Проход напрямик",
+          "level_url": "https://codecombat.com/play/level/passing-through?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Полезные конкуренты",
+          "level_url": "https://codecombat.com/play/level/useful-competitors?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Поляна чудес",
+          "level_url": "https://codecombat.com/play/level/wonderglade?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Проклятая Поляна чудес",
+          "level_url": "https://codecombat.com/play/level/cursed-wonderglade?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Дикий Альянс",
+          "level_url": "https://codecombat.com/play/level/wild-alliance?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Самоцветы или смерть",
+          "level_url": "https://codecombat.com/play/level/gems-or-death?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Бурл бьется с Булем",
+          "level_url": "https://codecombat.com/play/level/burls-beets-booleans?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Соленая земля",
+          "level_url": "https://codecombat.com/play/level/salted-earth?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "27. Звездопад",
+          "level_url": "https://codecombat.com/play/level/star-shower?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "28. Лесная тень",
+          "level_url": "https://codecombat.com/play/level/forest-shadow?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Надзиратели",
+          "level_url": "https://codecombat.com/play/level/warders?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "29. Весенний гром",
+          "level_url": "https://codecombat.com/play/level/spring-thunder?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "30. Лассо-телепорт",
+          "level_url": "https://codecombat.com/play/level/teleport-lasso?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "31. Охота на драчунов",
+          "level_url": "https://codecombat.com/play/level/brawler-hunt?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Helpful Hunting",
+          "level_url": "https://codecombat.com/play/level/helpful-hunting?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "32. Обычный день",
+          "level_url": "https://codecombat.com/play/level/usual-day?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "33. Логический путь",
+          "level_url": "https://codecombat.com/play/level/logical-path?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "34. Логический круг",
+          "level_url": "https://codecombat.com/play/level/logical-circle?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "35. Логическое заключение",
+          "level_url": "https://codecombat.com/play/level/logical-conclusion?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Nonandor",
+          "level_url": "https://codecombat.com/play/level/nonandor?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "36. Могучий песчаный як",
+          "level_url": "https://codecombat.com/play/level/the-mighty-sand-yak?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "37. Оазис",
+          "level_url": "https://codecombat.com/play/level/oasis?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "38. Дорога Сарвена",
+          "level_url": "https://codecombat.com/play/level/sarven-road?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Сухое орошение",
+          "level_url": "https://codecombat.com/play/level/dried-irrigation?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "39. Ущелья Сарвена",
+          "level_url": "https://codecombat.com/play/level/sarven-gaps?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "40. Перекрёстки",
+          "level_url": "https://codecombat.com/play/level/crossroads?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "41. Перехват",
+          "level_url": "https://codecombat.com/play/level/interception?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "42. Топот копыт",
+          "level_url": "https://codecombat.com/play/level/thunderhooves?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Дружественное минное поле",
+          "level_url": "https://codecombat.com/play/level/friendly-minefield?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "43. Китгардский чародей",
+          "level_url": "https://codecombat.com/play/level/kithgard-enchanter?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "44. Сапёр",
+          "level_url": "https://codecombat.com/play/level/minesweeper?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "45. Операция Крикливый зуёк",
+          "level_url": "https://codecombat.com/play/level/operation-killdeer?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "46. Медицинская помощь",
+          "level_url": "https://codecombat.com/play/level/medical-attention?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Долина короля",
+          "level_url": "https://codecombat.com/play/level/valley-of-the-king?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Долина тысячи скал",
+          "level_url": "https://codecombat.com/play/level/valley-of-a-thousand-rocks?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "47. Сохраняя время",
+          "level_url": "https://codecombat.com/play/level/keeping-time?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "48. Сердце пустыни",
+          "level_url": "https://codecombat.com/play/level/crux-of-the-desert?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "49. Накопление золота",
+          "level_url": "https://codecombat.com/play/level/hoarding-gold?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "50. Упражнения с приманкой",
+          "level_url": "https://codecombat.com/play/level/decoy-drill?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Жадная Защита",
+          "level_url": "https://codecombat.com/play/level/greed-protection?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "51. Продолжительная алхимия",
+          "level_url": "https://codecombat.com/play/level/continuous-alchemy?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Master Of Camouflage",
+          "level_url": "https://codecombat.com/play/level/master-of-camouflage?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Комбинированное испытание: Побег к Весне",
+          "level_url": "https://codecombat.com/play/level/escape-to-the-spring?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "52. Меховой форсаж",
+          "level_url": "https://codecombat.com/play/level/fast-and-furry-ous?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "53. Песчаные грибы",
+          "level_url": "https://codecombat.com/play/level/sand-mushrooms?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "54. Грибная помеха",
+          "level_url": "https://codecombat.com/play/level/mushroom-noise?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "55. Ключи-ловушки",
+          "level_url": "https://codecombat.com/play/level/key-traps?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "56. Цепь команд",
+          "level_url": "https://codecombat.com/play/level/chain-of-command?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "57. Питомец инженер",
+          "level_url": "https://codecombat.com/play/level/pet-engineer?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "58. Питомец переводчик",
+          "level_url": "https://codecombat.com/play/level/pet-translator?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "59. Питомец адъютант",
+          "level_url": "https://codecombat.com/play/level/pet-adjutant?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "60. Сила алхимии",
+          "level_url": "https://codecombat.com/play/level/alchemic-power?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "Испытание на использование концепций: Pet Explorer",
+          "level_url": "https://codecombat.com/play/level/pet-explorer?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "61. Опасный ключ",
+          "level_url": "https://codecombat.com/play/level/dangerous-key?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "62. Олимпийская гонка",
+          "level_url": "https://codecombat.com/play/level/olympic-race?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        },
+        {
+          "level_name": "63. Скрещенные кости",
+          "level_url": "https://codecombat.com/play/level/cross-bones?course=56462f935afde0c6fd30fc8c&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Информатика 4",
+      "courses_levels": [
+        {
+          "level_name": "1. Пыль",
+          "level_url": "https://codecombat.com/play/level/dust?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Двойная наглость",
+          "level_url": "https://codecombat.com/play/level/double-cheek?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Ущелье бурь",
+          "level_url": "https://codecombat.com/play/level/canyon-of-storms?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Без труда нет плода",
+          "level_url": "https://codecombat.com/play/level/no-pain-no-gain?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "5.  Бой в пустыне",
+          "level_url": "https://codecombat.com/play/level/desert-combat?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Приманивай и меняй",
+          "level_url": "https://codecombat.com/play/level/bait-and-switch?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Создатель миражей",
+          "level_url": "https://codecombat.com/play/level/mirage-maker?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Сила шпината",
+          "level_url": "https://codecombat.com/play/level/spinach-power?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Командная работа",
+          "level_url": "https://codecombat.com/play/level/team-work?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Скоординированная оборона",
+          "level_url": "https://codecombat.com/play/level/coordinated-defense?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Очередь новобранцев",
+          "level_url": "https://codecombat.com/play/level/recruiting-queue?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Второй самоцвет",
+          "level_url": "https://codecombat.com/play/level/second-gem?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Спаситель Сарвена",
+          "level_url": "https://codecombat.com/play/level/sarven-savior?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Ограбление банка",
+          "level_url": "https://codecombat.com/play/level/bank-raid?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Блуждающие души",
+          "level_url": "https://codecombat.com/play/level/wandering-souls?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Прятки",
+          "level_url": "https://codecombat.com/play/level/lurkers?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Персональный подход",
+          "level_url": "https://codecombat.com/play/level/preferential-treatment?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Пастух Сарвена",
+          "level_url": "https://codecombat.com/play/level/sarven-shepherd?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Золотодобытчик",
+          "level_url": "https://codecombat.com/play/level/shine-getter?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Мародёр",
+          "level_url": "https://codecombat.com/play/level/marauder?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Песчаные змеи",
+          "level_url": "https://codecombat.com/play/level/sand-snakes?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Странная песчаная буря",
+          "level_url": "https://codecombat.com/play/level/odd-sandstorm?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Безумный Максер",
+          "level_url": "https://codecombat.com/play/level/mad-maxer?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Хрупкий боевой дух",
+          "level_url": "https://codecombat.com/play/level/brittle-morale?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Безумный Максер наносит ответный удар",
+          "level_url": "https://codecombat.com/play/level/mad-maxer-strikes-back?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Колодец желаний",
+          "level_url": "https://codecombat.com/play/level/wishing-well?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "27. Игра в Салки",
+          "level_url": "https://codecombat.com/play/level/crag-tag?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "28. Слалом",
+          "level_url": "https://codecombat.com/play/level/slalom?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "29. Пройдоха в ущелье огров",
+          "level_url": "https://codecombat.com/play/level/ogre-gorge-gouger?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "30. Командир Клаудрипа",
+          "level_url": "https://codecombat.com/play/level/cloudrip-commander?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "31. Горные наёмники",
+          "level_url": "https://codecombat.com/play/level/mountain-mercenaries?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "32. Лесной страж",
+          "level_url": "https://codecombat.com/play/level/timber-guard?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "33. Смотритель зоопарка",
+          "level_url": "https://codecombat.com/play/level/zoo-keeper?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "34. Благородная жертва",
+          "level_url": "https://codecombat.com/play/level/noble-sacrifice?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "35. Охота",
+          "level_url": "https://codecombat.com/play/level/hunting-party?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "36. Чужой меч",
+          "level_url": "https://codecombat.com/play/level/borrowed-sword?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        },
+        {
+          "level_name": "37. Summation Summit",
+          "level_url": "https://codecombat.com/play/level/summation-summit?course=56462f935afde0c6fd30fc8d&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Информатика 5",
+      "courses_levels": [
+        {
+          "level_name": "1. Жизненные силы",
+          "level_url": "https://codecombat.com/play/level/vital-powers?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Два цветка",
+          "level_url": "https://codecombat.com/play/level/the-two-flowers?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Охотники и добыча",
+          "level_url": "https://codecombat.com/play/level/hunters-and-prey?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Огненная жатва",
+          "level_url": "https://codecombat.com/play/level/reaping-fire?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Упорство и труд",
+          "level_url": "https://codecombat.com/play/level/toil-and-trouble?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Смешанная тактика",
+          "level_url": "https://codecombat.com/play/level/mixed-unit-tactics?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Ущелье стального когтя",
+          "level_url": "https://codecombat.com/play/level/steelclaw-gap?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Обладатель кольца",
+          "level_url": "https://codecombat.com/play/level/ring-bearer?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Библиотечный тактик",
+          "level_url": "https://codecombat.com/play/level/library-tactician?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Геометрия цветов",
+          "level_url": "https://codecombat.com/play/level/the-geometry-of-flowers?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Шпион среди нас",
+          "level_url": "https://codecombat.com/play/level/the-spy-among-us?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "12. В имени моём",
+          "level_url": "https://codecombat.com/play/level/in-my-name?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Горцы",
+          "level_url": "https://codecombat.com/play/level/highlanders?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Защита периметра",
+          "level_url": "https://codecombat.com/play/level/perimeter-defense?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Опасные тропы",
+          "level_url": "https://codecombat.com/play/level/dangerous-tracks?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Ресурсы долин",
+          "level_url": "https://codecombat.com/play/level/resource-valleys?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Безупречные пары",
+          "level_url": "https://codecombat.com/play/level/flawless-pairs?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Сила близнецов",
+          "level_url": "https://codecombat.com/play/level/twins-power?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Думай наперёд",
+          "level_url": "https://codecombat.com/play/level/think-ahead?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Решётчатый поиск",
+          "level_url": "https://codecombat.com/play/level/grid-search?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Решетчатое минирование",
+          "level_url": "https://codecombat.com/play/level/grid-minefield?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "22. К оружию!",
+          "level_url": "https://codecombat.com/play/level/to-arms?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Точки силы",
+          "level_url": "https://codecombat.com/play/level/power-points?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Опасная долина",
+          "level_url": "https://codecombat.com/play/level/danger-valley?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Лунатики",
+          "level_url": "https://codecombat.com/play/level/sleepwalkers?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Пушечный десант",
+          "level_url": "https://codecombat.com/play/level/cannon-landing-force?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "27. Подснежники",
+          "level_url": "https://codecombat.com/play/level/snowdrops?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "28. Оленья побудка",
+          "level_url": "https://codecombat.com/play/level/reindeer-wakeup?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "29. Олений розыск",
+          "level_url": "https://codecombat.com/play/level/reindeer-spotter?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "30. Оленья забота",
+          "level_url": "https://codecombat.com/play/level/reindeer-tender?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "31. Прямоугольный ритуал",
+          "level_url": "https://codecombat.com/play/level/ritual-of-rectangling?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "32. Квадратная защита",
+          "level_url": "https://codecombat.com/play/level/square-shield?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "33. Площадь йети",
+          "level_url": "https://codecombat.com/play/level/area-of-yetis?course=569ed916efa72b0ced971447&codeLanguage=python"
+        },
+        {
+          "level_name": "34. Биты и триты",
+          "level_url": "https://codecombat.com/play/level/bits-and-trits?course=569ed916efa72b0ced971447&codeLanguage=python"
+        }
+      ]
+    },
+    {
+      "course_name": "Информатика 6",
+      "courses_levels": [
+        {
+          "level_name": "1. Шахта туманного острова",
+          "level_url": "https://codecombat.com/play/level/misty-island-mine?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "2. Мрачная решимость",
+          "level_url": "https://codecombat.com/play/level/grim-determination?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "3. Поедатель Йети",
+          "level_url": "https://codecombat.com/play/level/yeti-eater?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "4. Антиподы",
+          "level_url": "https://codecombat.com/play/level/antipodes?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "5. Охота началась",
+          "level_url": "https://codecombat.com/play/level/the-hunt-begins?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "6. Кража яка",
+          "level_url": "https://codecombat.com/play/level/yak-heist?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "7. Дремлющий образец",
+          "level_url": "https://codecombat.com/play/level/slumbering-sample?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "8. Прогулка по кругу",
+          "level_url": "https://codecombat.com/play/level/circle-walking?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "9. Скольжение",
+          "level_url": "https://codecombat.com/play/level/skating-away?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "9a. Зельебол",
+          "level_url": "https://codecombat.com/play/level/brewball?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "10. Прицельный пинок",
+          "level_url": "https://codecombat.com/play/level/precision-kicking?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "11. Ледяной футбол",
+          "level_url": "https://codecombat.com/play/level/ice-soccer?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "12. Змеиные сбережения",
+          "level_url": "https://codecombat.com/play/level/serpent-savings?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "13. Снежинки на льду",
+          "level_url": "https://codecombat.com/play/level/snowflakes-on-the-ice?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "14. Ледяная жизнь",
+          "level_url": "https://codecombat.com/play/level/ice-life?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "15. Кодированные приказы",
+          "level_url": "https://codecombat.com/play/level/coded-orders?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "16. Угадай моё число",
+          "level_url": "https://codecombat.com/play/level/guess-my-number?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "17. Стройся!",
+          "level_url": "https://codecombat.com/play/level/form-up?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "18. Первый пошёл",
+          "level_url": "https://codecombat.com/play/level/first-out?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "19. Двойная очередь",
+          "level_url": "https://codecombat.com/play/level/double-queue?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "20. Менеджер очереди",
+          "level_url": "https://codecombat.com/play/level/queue-manager?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "21. Связка ключей",
+          "level_url": "https://codecombat.com/play/level/key-stack?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "22. Сортировка стеком",
+          "level_url": "https://codecombat.com/play/level/stack-triage?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "23. Стек алхимика",
+          "level_url": "https://codecombat.com/play/level/alchemic-stack?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "24. Связанные ключи",
+          "level_url": "https://codecombat.com/play/level/linked-keys?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "25. Подсчёт связей",
+          "level_url": "https://codecombat.com/play/level/count-links?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "26. Камень за камнем",
+          "level_url": "https://codecombat.com/play/level/gem-by-gem?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "27. Беспроводной",
+          "level_url": "https://codecombat.com/play/level/wireless?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "28. Хешированные яки",
+          "level_url": "https://codecombat.com/play/level/hashed-yaks?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "29. Хеш-магия",
+          "level_url": "https://codecombat.com/play/level/hashing-magic?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "30. Бикфордов шнур",
+          "level_url": "https://codecombat.com/play/level/match-cord?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "31. Золотой выбор",
+          "level_url": "https://codecombat.com/play/level/golden-choice?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "32. Колонны Кельвинтафа",
+          "level_url": "https://codecombat.com/play/level/kelvintaph-pillars?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "33. Хрупкий лабиринт",
+          "level_url": "https://codecombat.com/play/level/fragile-maze?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "34. Сокровище во льдах",
+          "level_url": "https://codecombat.com/play/level/treasured-in-ice?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "35. Разомкнутые круги",
+          "level_url": "https://codecombat.com/play/level/broken-circles?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "36. Бомбардировка",
+          "level_url": "https://codecombat.com/play/level/bombing-run?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        },
+        {
+          "level_name": "37. Асы программирования",
+          "level_url": "https://codecombat.com/play/level/ace-of-coders?course=5817d673e85d1220db624ca4&codeLanguage=python"
+        }
+      ]
     }
   ]
 }

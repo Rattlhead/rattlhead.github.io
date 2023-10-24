@@ -47,35 +47,42 @@
 
 
 <script>
+    // Получаем данные из JSON-файла с помощью $.getJSON
     $.getJSON('./assets/json/Codecombat-courses.json', function (data) {
         var outputDiv = $('#output');
         var response = '';
 
+        // Цикл по каждому courses_id в data.courses
         for (const courses_id in data.courses) {
 
+            // Получаем название курса
             course_name = data.courses[courses_id].course_name + '<br>';
             list_levels = data.courses[courses_id].courses_levels
+
+            // Цикл по каждому level_id в list_levels
             for (const level_id in list_levels) {
                 console.log(level_id)
+
+                // Получаем название уровня и ссылку
                 level_name = data.courses[courses_id].courses_levels[level_id].level_name;
                 level_url = data.courses[courses_id].courses_levels[level_id].level_url;
 
+                // Строим HTML-разметку для каждого уровня и добавляем к response
                 response += `<a href="${level_url}" class="level-link">
-                    <div class="level-item">
-                        <div class="level-label">${course_name}</div>
-                        <div class="level-name" title=""><span dir="auto">${level_name}</span></div>
-
-                    </div>
-                </a>`;
+                <div class="level-item">
+                    <div class="level-label">${course_name}</div>
+                    <div class="level-name" title=""><span dir="auto">${level_name}</span></div>
+                </div>
+            </a>`;
             }
         }
 
+        // Устанавливаем содержимое элемента с id "output" равным response
         outputDiv.html(response);
     })
         .fail(function (error) {
             console.error('Ошибка:', error);
         });
-
 </script>
 
 
