@@ -5,8 +5,11 @@ index: -3
 title: Ошибка в Python библиотеках
 ---
 ## zbar
-### ImportError: Unable to find zbar shared library |macos|_
+### ImportError: Unable to find zbar shared library |macos|
 
+<code>
 `mkdir ~/lib
 ln -s $(brew --prefix zbar)/lib/libzbar.dylib ~/lib/libzbar.dylib`
+</code>
+
 [источник](https://github.com/npinchot/zbar/issues/3#issuecomment-1038005495)
