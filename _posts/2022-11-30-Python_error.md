@@ -1,8 +1,8 @@
-_---
+---
 layout: post
 theme: python
 index: -3
-title: Ошибка в пито библиотеках
+title: Ошибка в Python библиотеках
 ---
 ## zbar
 ### ImportError: Unable to find zbar shared library |macos|_
