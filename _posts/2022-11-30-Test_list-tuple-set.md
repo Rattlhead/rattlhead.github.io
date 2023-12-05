@@ -24,7 +24,7 @@ title: Список кортеж множество
 Быстрее всего создается список
 
 ## Чтение из файла
-
+ 
     def read_file_to_tuple(filename):
         with open(filename, 'r') as f:
             data_tuple = tuple(f.readlines())
