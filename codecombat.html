@@ -25,7 +25,7 @@
         text-align: center;
     }
 
-    .level-item a {
+    .level-link {
         text-decoration: none;
     }
 
@@ -70,7 +70,7 @@
                     // Строим HTML-разметку для каждого уровня и добавляем к response
                     const html = `
           <a href="${level_url}" class="level-link">
-            <div class="level-item">
+            <div class="level-item my-2">
               <div class="level-label">${course_name}</div>
               <div class="level-name" title=""><span dir="auto">${level_name}</span></div>
             </div>
