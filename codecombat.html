@@ -55,37 +55,50 @@
         <div class="col">
         </div>
         <div class="col" id="output">
-            <ul>
-                {% assign counter = 0 %}
-                {% for item in site.data.Codecombat-courses.courses %}
-                {% assign counter = counter | plus:1 %}
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
+            <h3>Инструкция</h3>
 
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ counter }}" aria-expanded="true" aria-controls="collapse{{ counter }}">
-       {{ item.course_name }}
-      </button>
-    </h2>
+            <p>Перейдите в <a class="btn btn-outline-warning" href="https://codecombat.com/"
+                              target="_blank">Codecombat</a></p>
+            <p>Логин: m33robo</p>
+            <p>Пароль: qwe1234</p>
+            <p>Нажмите на название курса, чтобы увидеть список уровней. Нажмите на уровень, чтобы попасть внутрь
+                уровня</p>
 
-    <div id="collapse{{ counter }}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body p-1 bg-light-subtle ">
-<ul class="list-unstyled">
-       {% for level in item.courses_levels %}
+            {% assign counter = 0 %}
+            {% for item in site.data.Codecombat-courses.courses %}
+            {% assign counter = counter | plus:1 %}
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
 
-          <li> <a class="level-link btn btn-outline-warning my-1  w-100" href="{{ level.level_url }}">   {{ level.level_name }} </a> </li>
+                    <h2 class="accordion-header">
+                        <button aria-controls="collapse{{ counter }}" aria-expanded="true"
+                                class="accordion-button collapsed"
+                                data-bs-target="#collapse{{ counter }}" data-bs-toggle="collapse"
+                                type="button">
+                            {{ item.course_name }}
+                        </button>
+                    </h2>
 
-       {% endfor %}
+                    <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                         id="collapse{{ counter }}">
+                        <div class="accordion-body p-1 bg-light-subtle ">
+                            <ul class="list-unstyled">
+                                {% for level in item.courses_levels %}
 
-</ul>
-      </div>
-    </div>
-  </div>
+                                <li><a class="level-link btn btn-outline-warning my-1  w-100"
+                                       href="{{ level.level_url }}" target="_blank"> {{ level.level_name }} </a></li>
 
-</div>
+                                {% endfor %}
 
-                {% endfor %}
-            </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {% endfor %}
+
         </div>
         <div class="col">
         </div>
